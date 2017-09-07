@@ -1,0 +1,392 @@
+﻿Log file open, 09/04/17 21:54:53
+LogInit:Display: Running engine for game: PinballGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-866277234) SRandInit(-866277234).
+LogTaskGraph: Started task graph with 5 named threads and 12 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.155863
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.17.0(build = 424315) feature version = 0. Client runs version (prod = 1).1.17.0(build = 424315) feature version = 0
+OCULUS: Debug: [HMDState] Using default profile default
+OCULUS: Info: IAD changed to 59.4mm
+OCULUS: Debug: Creating factory
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Unreal/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.05-01.54.54:224][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.05-01.54.54:224][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.05-01.54.54:240][  0]LogInit: Computer: DESKTOP-0S92KV8
+[2017.09.05-01.54.54:240][  0]LogInit: User: davis
+[2017.09.05-01.54.54:240][  0]LogInit: CPU Page size=4096, Cores=8
+[2017.09.05-01.54.54:240][  0]LogInit: High frequency timer resolution =3.784492 MHz
+[2017.09.05-01.54.54:240][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.05-01.54.54:240][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.05-01.54.54:240][  0]LogMemory: Process Physical Memory: 280.09 MB used, 280.09 MB peak
+[2017.09.05-01.54.54:240][  0]LogMemory: Process Virtual Memory: 270.70 MB used, 270.70 MB peak
+[2017.09.05-01.54.54:240][  0]LogMemory: Physical Memory: 6814.96 MB used,  9501.79 MB free, 16316.75 MB total
+[2017.09.05-01.54.54:240][  0]LogMemory: Virtual Memory: 691.41 MB used,  9501.79 MB free, 134217728.00 MB total
+[2017.09.05-01.54.54:294][  0]LogInit: Using OS detected language (en-US).
+[2017.09.05-01.54.54:294][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.05-01.54.54:297][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.05-01.54.55:157][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.05-01.54.55:612][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.09.05-01.54.55:612][  0]LogD3D11RHI:       8071/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.05-01.54.55:613][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.05-01.54.55:613][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.05-01.54.55:613][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.05-01.54.55:620][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.05-01.54.55:620][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.05-01.54.55:620][  0]LogWindows: EnumDisplayDevices:
+[2017.09.05-01.54.55:620][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.09.05-01.54.55:620][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.09.05-01.54.55:620][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.09.05-01.54.55:620][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.09.05-01.54.55:620][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.05-01.54.55:620][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.09.05-01.54.55:620][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.09.05-01.54.55:620][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.09.05-01.54.55:620][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.05-01.54.56:054][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.05-01.54.56:189][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.05-01.54.56:190][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../../UnrealProjects/PinballGame/Intermediate/Shaders/WorkingDirectory/12556/).
+[2017.09.05-01.54.56:190][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/davis/AppData/Local/Temp/UnrealShaderWorkingDir/8EEABB9C434BF29E3579C8B98379C8A0/'.
+[2017.09.05-01.54.56:190][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.05-01.54.57:088][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.05-01.54.57:127][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.05-01.54.57:167][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.05-01.54.57:207][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.05-01.54.57:247][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.05-01.54.57:286][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.05-01.54.57:326][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.05-01.54.57:366][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.05-01.54.57:399][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.05-01.54.57:437][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.05-01.54.57:476][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.05-01.54.57:514][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.05-01.54.57:552][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.05-01.54.57:590][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.05-01.54.57:628][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.05-01.54.57:703][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.05-01.54.57:703][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.05-01.54.57:731][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.05-01.54.57:806][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.05-01.54.57:830][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.05-01.54.57:867][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.05-01.54.57:905][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.05-01.54.57:943][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.05-01.54.57:981][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.05-01.54.57:981][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.05-01.54.58:619][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.05-01.54.58:713][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/davis/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.05-01.54.58:713][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/davis/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.05-01.54.58:713][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UnrealProjects/PinballGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.05-01.54.58:713][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.05-01.54.58:713][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UnrealProjects/PinballGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.05-01.54.58:713][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.05-01.54.58:729][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.05-01.54.58:741][  0]LogDerivedDataCache: Using Local data cache path C:/Users/davis/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.05-01.54.58:750][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.05-01.54.58:751][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.05-01.54.58:759][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.05-01.54.58:759][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.05-01.54.59:079][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.05-01.54.59:142][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.05-01.54.59:266][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.05-01.54.59:298][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.05-01.54.59:334][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.05-01.54.59:334][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.05-01.54.59:334][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.05-01.54.59:770][  0]LogNetVersion: PinballGame , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3673353605)
+[2017.09.05-01.54.59:823][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2017.09.05-01.54.59:868][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.027978 seconds
+[2017.09.05-01.54.59:873][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.05-01.54.59:873][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.09.05-01.54.59:873][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.05-01.54.59:917][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.05-01.55.01:937][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.05-01.55.01:970][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.05-01.55.02:386][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.05-01.55.02:672][  0]SourceControl: Info Source control is disabled
+[2017.09.05-01.55.02:725][  0]SourceControl: Info Source control is disabled
+[2017.09.05-01.55.02:760][  0]SourceControl: Info Source control is disabled
+[2017.09.05-01.55.02:794][  0]SourceControl: Info Source control is disabled
+[2017.09.05-01.55.03:298][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.05-01.55.03:787][  0]LogEngine: Initializing Engine...
+[2017.09.05-01.55.03:787][  0]LogHMD: Oculus plugin initialized. Version: 4.16.3-3561208+++UE4+Release-4.16, LibOVR: 1.17.0, SDK: 1.12.0, built Jul 28 2017, 11:57:22
+[2017.09.05-01.55.03:965][  0]OCULUS: Debug: [HMDState] Using default profile default
+[2017.09.05-01.55.03:965][  0]OCULUS: Info: IAD changed to 59.4mm
+[2017.09.05-01.55.03:965][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.05-01.55.03:965][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.05-01.55.04:058][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.05-01.55.04:072][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-01.55.04:085][  0]LogInit: FAudioDevice initialized.
+[2017.09.05-01.55.04:134][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/davis/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.05-01.55.04:143][  0]LogInit: Texture streaming: Enabled
+[2017.09.05-01.55.04:213][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.05-01.55.04:380][  0]LogInit: Transaction tracking system initialized
+[2017.09.05-01.55.04:597][  0]BlueprintLog: New page: Editor Load
+[2017.09.05-01.55.05:263][  0]LocalizationService: Info Localization service is disabled
+[2017.09.05-01.55.05:754][  0]LogConsoleResponse:Display: 
+[2017.09.05-01.55.05:857][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.05-01.55.05:857][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.05-01.55.06:265][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/PinballGame/Content/' took 0.01s
+[2017.09.05-01.55.06:656][  0]SourceControl: Info Source control is disabled
+[2017.09.05-01.55.06:656][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.05-01.55.06:656][  0]LightingResults: New page: Lighting Build
+[2017.09.05-01.55.06:685][  0]MapCheck: New page: Map Check
+[2017.09.05-01.55.06:685][  0]LightingResults: New page: Lighting Build
+[2017.09.05-01.55.06:874][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.05-01.55.06:875][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.09.05-01.55.06:878][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.05-01.55.06:893][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.05-01.55.06:928][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.693ms to complete.
+[2017.09.05-01.55.06:928][  0]LogFileHelpers: Loading map 'Template_Default' took 0.272
+[2017.09.05-01.55.07:072][  0]LogCollectionManager: Loaded 0 collections in 0.001449 seconds
+[2017.09.05-01.55.07:137][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/PinballGame/Saved/Collections/' took 0.01s
+[2017.09.05-01.55.07:137][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/PinballGame/Content/Developers/davis/Collections/' took 0.01s
+[2017.09.05-01.55.07:137][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/PinballGame/Content/Collections/' took 0.01s
+[2017.09.05-01.55.07:137][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.05-01.55.07:147][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2329 classes and 491 folders.
+[2017.09.05-01.55.07:193][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.05-01.55.07:242][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.09.05-01.55.07:274][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.05-01.55.07:305][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.05-01.55.07:309][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.05-01.55.07:311][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.05-01.55.07:317][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.05-01.55.07:392][  0]LogRenderer: Reallocating scene render targets to support 1208x620 NumSamples 1 (Frame:1).
+[2017.09.05-01.55.07:477][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.05-01.55.07:565][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.05-01.55.07:565][  0]LogLoad: (Engine Initialization) Total time: 15.01 seconds
+[2017.09.05-01.55.07:565][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.09.05-01.55.07:565][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.05-01.55.07:575][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.05-01.55.07:576][  0]LogOcInput: OculusInput pre-init called
+[2017.09.05-01.55.07:580][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.17.0
+[2017.09.05-01.55.07:580][  0]LogHMD: Starting GearVRController plugin
+[2017.09.05-01.55.07:593][  0]LogAssetRegistry: Asset discovery search completed in 7.7918 seconds
+[2017.09.05-01.55.07:595][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.05-01.55.07:595][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2017.09.05-01.55.07:597][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.05-01.55.07:642][  0]LogSlate: Took 0.004082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.05-01.55.11:515][442]Cmd: MAP LOAD FILE="../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.05-01.55.11:518][442]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.05-01.55.11:526][442]LightingResults: New page: Lighting Build
+[2017.09.05-01.55.11:526][442]LoadErrors: New page: Loading map: PinBallMap.umap
+[2017.09.05-01.55.11:528][442]MapCheck: New page: Map Check
+[2017.09.05-01.55.11:528][442]LightingResults: New page: Lighting Build
+[2017.09.05-01.55.11:664][442]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.05-01.55.11:683][442]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.05-01.55.11:713][442]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.05-01.55.11:751][442]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.677ms to complete.
+[2017.09.05-01.55.11:751][442]LogFileHelpers: Loading map 'PinBallMap' took 0.237
+[2017.09.05-01.56.39:234][444]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.05-01.56.39:256][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.05-01.56.39:257][444]OCULUS: Debug: [HMDState] Using default profile default
+[2017.09.05-01.56.39:257][444]OCULUS: Info: IAD changed to 59.4mm
+[2017.09.05-01.56.39:257][444]LogHMD: New ovr session is created
+[2017.09.05-01.56.39:257][444]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.09.05-01.56.39:257][444]PIE: New page: PIE session: PinBallMap (Sep 4, 2017, 5:56:39 PM)
+[2017.09.05-01.56.39:257][444]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.05-01.56.39:262][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004803s)
+[2017.09.05-01.56.39:263][444]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.05-01.56.39:263][444]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2017.09.05-01.56.39:263][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.005516s)
+[2017.09.05-01.56.39:280][444]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-01.56.39:289][444]LogInit: FAudioDevice initialized.
+[2017.09.05-01.56.39:369][444]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.05-01.56.39:373][444]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.04-21.56.39
+[2017.09.05-01.56.39:373][444]LogWorld: Bringing up level for play took: 0.001552
+[2017.09.05-01.56.39:403][444]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.09.05-01.56.39:404][444]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap -0.656
+[2017.09.05-01.56.57:370][598]LogHMD: Destroying ovr session
+[2017.09.05-01.57.18:282][ 64]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.05-01.57.18:293][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.05-01.57.18:294][ 64]OCULUS: Debug: [HMDState] Using default profile default
+[2017.09.05-01.57.18:294][ 64]OCULUS: Info: IAD changed to 59.4mm
+[2017.09.05-01.57.18:294][ 64]LogHMD: New ovr session is created
+[2017.09.05-01.57.18:294][ 64]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.09.05-01.57.18:294][ 64]PIE: New page: PIE session: PinBallMap (Sep 4, 2017, 5:57:18 PM)
+[2017.09.05-01.57.18:294][ 64]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.05-01.57.18:299][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005041s)
+[2017.09.05-01.57.18:300][ 64]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.05-01.57.18:300][ 64]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2017.09.05-01.57.18:300][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.005738s)
+[2017.09.05-01.57.18:316][ 64]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-01.57.18:325][ 64]LogInit: FAudioDevice initialized.
+[2017.09.05-01.57.18:353][ 64]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.05-01.57.18:355][ 64]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.04-21.57.18
+[2017.09.05-01.57.18:355][ 64]LogWorld: Bringing up level for play took: 0.001422
+[2017.09.05-01.57.18:356][ 64]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap 0.297
+[2017.09.05-01.57.37:199][324]LogHMD: Destroying ovr session
+[2017.09.05-01.57.58:073][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.05-01.57.58:073][805]OCULUS: Debug: [HMDState] Using default profile default
+[2017.09.05-01.57.58:073][805]OCULUS: Info: IAD changed to 59.4mm
+[2017.09.05-01.57.58:073][805]LogHMD: New ovr session is created
+[2017.09.05-01.57.58:073][805]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.09.05-01.57.58:074][805]PIE: New page: PIE session: PinBallMap (Sep 4, 2017, 5:57:58 PM)
+[2017.09.05-01.57.58:074][805]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.05-01.57.58:080][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005950s)
+[2017.09.05-01.57.58:080][805]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.05-01.57.58:080][805]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2017.09.05-01.57.58:080][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.006861s)
+[2017.09.05-01.57.58:090][805]LogHMD: Vision Tracking Acquired
+[2017.09.05-01.57.58:097][805]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-01.57.58:107][805]LogInit: FAudioDevice initialized.
+[2017.09.05-01.57.58:190][805]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.05-01.57.58:192][805]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.04-21.57.58
+[2017.09.05-01.57.58:192][805]LogWorld: Bringing up level for play took: 0.001480
+[2017.09.05-01.57.58:197][805]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap 0.138
+[2017.09.05-01.57.58:209][805]LogHMD: Reallocation of eye buffer was requested
+[2017.09.05-01.57.58:213][805]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x0000021618C51CC0
+[2017.09.05-01.57.58:246][805]LogRenderer: Reallocating scene render targets to support 2712x1600 NumSamples 1 (Frame:1).
+[2017.09.05-01.58.11:215][419]OCULUS: Error: Prediction interval too high: 0.157787 s, clamping at 0.100000 s
+[2017.09.05-01.58.12:356][460]LogHMD: Destroying ovr session
+[2017.09.05-01.58.12:356][460]LogHMD: Freeing textureSet 0x0000021618C51CC0
+[2017.09.05-01.58.14:325][675]LogTemp: Repeting last play command: VR Preview
+[2017.09.05-01.58.14:335][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.05-01.58.14:396][675]OCULUS: Debug: [HMDState] Using default profile default
+[2017.09.05-01.58.14:396][675]OCULUS: Info: IAD changed to 59.4mm
+[2017.09.05-01.58.14:396][675]LogHMD: New ovr session is created
+[2017.09.05-01.58.14:396][675]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.09.05-01.58.14:396][675]PIE: New page: PIE session: PinBallMap (Sep 4, 2017, 5:58:14 PM)
+[2017.09.05-01.58.14:396][675]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.05-01.58.14:401][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004621s)
+[2017.09.05-01.58.14:401][675]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.05-01.58.14:402][675]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2017.09.05-01.58.14:402][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.005306s)
+[2017.09.05-01.58.14:421][675]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-01.58.14:430][675]LogInit: FAudioDevice initialized.
+[2017.09.05-01.58.14:509][675]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.05-01.58.14:511][675]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.04-21.58.14
+[2017.09.05-01.58.14:512][675]LogWorld: Bringing up level for play took: 0.001593
+[2017.09.05-01.58.14:518][675]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap 0.459
+[2017.09.05-01.58.14:536][675]LogHMD: Need to reallocate eye buffer, reason: no textureset was allocated
+[2017.09.05-01.58.14:538][675]LogHMD: Allocated a new swap texture set (size 2712 x 1600, mipcount = 1, format = RGBA8), 0x0000021662305E20
+[2017.09.05-01.58.42:463][184]LogHMD: Lost Vision Tracking
+[2017.09.05-01.58.44:504][367]LogHMD: Destroying ovr session
+[2017.09.05-01.58.44:504][367]LogHMD: Freeing textureSet 0x0000021662305E20
+[2017.09.05-01.58.51:519][189]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.05-01.58.51:520][189]OCULUS: Debug: [HMDState] Using default profile default
+[2017.09.05-01.58.51:520][189]OCULUS: Info: IAD changed to 59.4mm
+[2017.09.05-01.58.51:520][189]LogHMD: New ovr session is created
+[2017.09.05-01.58.51:520][189]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2017.09.05-01.58.51:520][189]PIE: New page: PIE session: PinBallMap (Sep 4, 2017, 5:58:51 PM)
+[2017.09.05-01.58.51:520][189]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.05-01.58.51:525][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005467s)
+[2017.09.05-01.58.51:526][189]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.05-01.58.51:526][189]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2017.09.05-01.58.51:526][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.006235s)
+[2017.09.05-01.58.51:543][189]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-01.58.51:552][189]LogInit: FAudioDevice initialized.
+[2017.09.05-01.58.51:582][189]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.05-01.58.51:585][189]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.04-21.58.51
+[2017.09.05-01.58.51:585][189]LogWorld: Bringing up level for play took: 0.001741
+[2017.09.05-01.58.51:586][189]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap -0.473
+[2017.09.05-01.59.01:315][ 78]LogHMD: Destroying ovr session
+[2017.09.05-01.59.39:035][633]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../UnrealAssets/Metal/IMG_3891.JPG)
+[2017.09.05-01.59.39:501][633]LogTexture:Display: Building textures: IMG_3891 (AutoDXT, 5184X3456)
+[2017.09.05-01.59.57:130][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/IMG_3891" FILE="../../../../../UnrealProjects/PinballGame/Content/Assets/IMG_3891.uasset" SILENT=true
+[2017.09.05-01.59.59:083][132]LogSavePackage: Save=1952.12ms
+[2017.09.05-01.59.59:083][132]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/IMG_38919DC2A87C42D295660E2E6EBC25F63104.tmp' to '../../../../../UnrealProjects/PinballGame/Content/Assets/IMG_3891.uasset'
+[2017.09.05-01.59.59:085][132]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/Assets/IMG_3891.uasset
+[2017.09.05-02.00.08:285][209]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2017.09.05-02.00.10:625][476]LogMaterial:Warning: Material /Game/Assets/Metal.Metal needed to have new flag set bUsedWithStaticLighting !
+[2017.09.05-02.00.10:627][476]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2017.09.05-02.00.11:900][621]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.05-02.00.23:625][ 11]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.500000
+[2017.09.05-02.00.25:826][272]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.05-02.00.25:892][275]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2017.09.05-02.00.32:170][ 17]Cmd: POLY TEXSCALE  UU=0.062500 VV=0.062500
+[2017.09.05-02.00.32:875][101]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.05-02.00.37:431][638]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.05-02.00.38:383][747]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball3)
+[2017.09.05-02.00.39:013][818]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.05-02.00.46:601][724]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.05-02.00.50:222][154]Cmd: TRANSACTION UNDO
+[2017.09.05-02.00.50:222][154]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.05-02.00.50:240][154]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.05-02.00.50:693][207]Cmd: TRANSACTION UNDO
+[2017.09.05-02.00.50:693][207]LogEditorTransaction: Undo Create Actors
+[2017.09.05-02.00.51:764][334]Cmd: TRANSACTION UNDO
+[2017.09.05-02.00.51:764][334]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.05-02.00.52:157][378]Cmd: TRANSACTION UNDO
+[2017.09.05-02.00.52:157][378]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.05-02.00.52:733][444]Cmd: TRANSACTION UNDO
+[2017.09.05-02.00.52:733][444]LogEditorTransaction: Undo Select Brush Surface
+[2017.09.05-02.00.53:071][480]Cmd: TRANSACTION UNDO
+[2017.09.05-02.00.53:071][480]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.05-02.00.53:419][517]Cmd: TRANSACTION UNDO
+[2017.09.05-02.00.53:419][517]LogEditorTransaction: Undo Set Texscale
+[2017.09.05-02.00.53:858][565]Cmd: TRANSACTION UNDO
+[2017.09.05-02.00.53:858][565]LogEditorTransaction: Undo Select Brush Surface
+[2017.09.05-02.00.54:186][598]Cmd: TRANSACTION UNDO
+[2017.09.05-02.00.54:186][598]LogEditorTransaction: Undo Clicking on Components
+[2017.09.05-02.00.54:468][628]Cmd: TRANSACTION UNDO
+[2017.09.05-02.00.54:468][628]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.05-02.00.54:796][663]Cmd: TRANSACTION UNDO
+[2017.09.05-02.00.54:796][663]LogEditorTransaction: Undo Set Texscale
+[2017.09.05-02.00.55:167][703]Cmd: TRANSACTION UNDO
+[2017.09.05-02.00.55:167][703]LogEditorTransaction: Undo Select Brush Surface
+[2017.09.05-02.00.55:531][743]Cmd: TRANSACTION UNDO
+[2017.09.05-02.00.55:532][743]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.05-02.00.55:863][778]Cmd: TRANSACTION UNDO
+[2017.09.05-02.00.55:863][778]LogEditorTransaction: Undo Create Actors
+[2017.09.05-02.00.56:944][903]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.05-02.06.43:452][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap" FILE="../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.05-02.06.43:532][149]LogSavePackage: Save=76.81ms
+[2017.09.05-02.06.43:532][149]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap_Auto1B72998CA41A64BFD2A61DEAA8071BB80.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto1.umap'
+[2017.09.05-02.06.43:533][149]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto1.umap
+[2017.09.05-02.06.43:534][149]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinBallMap' took 0.092
+[2017.09.05-02.06.43:534][149]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.092
+[2017.09.05-02.06.43:535][149]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Metal] ([1] browsable assets)...
+[2017.09.05-02.06.43:548][149]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Metal.Metal]
+[2017.09.05-02.06.43:548][149]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Metal]
+[2017.09.05-02.06.43:548][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Metal" FILE="../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/Assets/Metal_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.05-02.06.43:561][149]LogSavePackage: Save=11.51ms
+[2017.09.05-02.06.43:561][149]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/Metal_Auto12B873A18492D515F9F34ED8E17927DC6.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/Assets/Metal_Auto1.uasset'
+[2017.09.05-02.06.43:561][149]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/Assets/Metal_Auto1.uasset
+[2017.09.05-02.06.43:561][149]LogFileHelpers: Auto-saving content packages took 0.026
