@@ -1,0 +1,919 @@
+﻿Log file open, 09/07/17 21:16:54
+LogInit:Display: Running engine for game: PinballGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1647993398) SRandInit(1647993398).
+LogTaskGraph: Started task graph with 5 named threads and 12 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.152609
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.17.0(build = 424315) feature version = 0. Client runs version (prod = 1).1.17.0(build = 424315) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Unreal/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.08-01.16.55:186][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.08-01.16.55:186][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.08-01.16.55:203][  0]LogInit: Computer: DESKTOP-0S92KV8
+[2017.09.08-01.16.55:203][  0]LogInit: User: davis
+[2017.09.08-01.16.55:203][  0]LogInit: CPU Page size=4096, Cores=8
+[2017.09.08-01.16.55:203][  0]LogInit: High frequency timer resolution =3.784490 MHz
+[2017.09.08-01.16.55:203][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.08-01.16.55:203][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.08-01.16.55:203][  0]LogMemory: Process Physical Memory: 279.79 MB used, 279.79 MB peak
+[2017.09.08-01.16.55:203][  0]LogMemory: Process Virtual Memory: 270.70 MB used, 270.70 MB peak
+[2017.09.08-01.16.55:203][  0]LogMemory: Physical Memory: 6122.33 MB used,  10194.42 MB free, 16316.75 MB total
+[2017.09.08-01.16.55:203][  0]LogMemory: Virtual Memory: 691.41 MB used,  10194.42 MB free, 134217728.00 MB total
+[2017.09.08-01.16.55:254][  0]LogInit: Using OS detected language (en-US).
+[2017.09.08-01.16.55:254][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.08-01.16.55:256][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.08-01.16.56:106][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.08-01.16.56:578][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.09.08-01.16.56:578][  0]LogD3D11RHI:       8071/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.08-01.16.56:580][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.08-01.16.56:580][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.08-01.16.56:580][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.08-01.16.56:585][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.08-01.16.56:586][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.08-01.16.56:586][  0]LogWindows: EnumDisplayDevices:
+[2017.09.08-01.16.56:586][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.09.08-01.16.56:586][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.09.08-01.16.56:586][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.09.08-01.16.56:586][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.09.08-01.16.56:586][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.08-01.16.56:586][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.09.08-01.16.56:586][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.09.08-01.16.56:586][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.09.08-01.16.56:586][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.08-01.16.57:026][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.08-01.16.57:167][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.08-01.16.57:217][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../UnrealProjects/PinballGame/Intermediate/Shaders/WorkingDirectory/1140/).
+[2017.09.08-01.16.57:217][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/davis/AppData/Local/Temp/UnrealShaderWorkingDir/3271A33043B33A904F19C5AB4F8C7388/'.
+[2017.09.08-01.16.57:217][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.08-01.16.58:096][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.08-01.16.58:135][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.08-01.16.58:174][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.08-01.16.58:214][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.08-01.16.58:253][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.08-01.16.58:292][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.08-01.16.58:331][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.08-01.16.58:370][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.08-01.16.58:402][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.08-01.16.58:442][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.08-01.16.58:481][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.08-01.16.58:520][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.08-01.16.58:557][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.08-01.16.58:595][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.08-01.16.58:633][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.08-01.16.58:708][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.08-01.16.58:708][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.08-01.16.58:736][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.08-01.16.58:810][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.08-01.16.58:834][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.08-01.16.58:872][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.08-01.16.58:912][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.08-01.16.58:952][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.08-01.16.58:992][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.08-01.16.58:992][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.08-01.16.59:356][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.08-01.16.59:446][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/davis/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.08-01.16.59:446][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/davis/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.08-01.16.59:446][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UnrealProjects/PinballGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.08-01.16.59:446][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.08-01.16.59:446][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UnrealProjects/PinballGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.08-01.16.59:446][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.08-01.16.59:462][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.08-01.16.59:474][  0]LogDerivedDataCache: Using Local data cache path C:/Users/davis/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.08-01.16.59:484][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.08-01.16.59:484][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.08-01.16.59:485][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.08-01.16.59:485][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.08-01.16.59:789][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.08-01.16.59:853][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.08-01.16.59:977][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.08-01.17.00:010][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.08-01.17.00:045][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.08-01.17.00:045][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.08-01.17.00:045][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.08-01.17.00:522][  0]LogNetVersion: PinballGame , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3673353605)
+[2017.09.08-01.17.00:575][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2017.09.08-01.17.00:636][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.045674 seconds
+[2017.09.08-01.17.00:641][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.08-01.17.00:641][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.09.08-01.17.00:641][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.08-01.17.00:687][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.08-01.17.02:536][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.08-01.17.02:569][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.08-01.17.02:974][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.08-01.17.03:266][  0]SourceControl: Info Source control is disabled
+[2017.09.08-01.17.03:329][  0]SourceControl: Info Source control is disabled
+[2017.09.08-01.17.03:364][  0]SourceControl: Info Source control is disabled
+[2017.09.08-01.17.03:399][  0]SourceControl: Info Source control is disabled
+[2017.09.08-01.17.03:904][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.08-01.17.04:350][  0]LogEngine: Initializing Engine...
+[2017.09.08-01.17.10:059][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.09.08-01.17.10:060][  0]LogHMD: Oculus plugin initialized. Version: 4.16.3-3561208+++UE4+Release-4.16, LibOVR: 1.17.0, SDK: 1.12.0, built Jul 28 2017, 11:57:22
+[2017.09.08-01.17.10:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.08-01.17.10:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.08-01.17.10:325][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.08-01.17.10:341][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.08-01.17.10:356][  0]LogInit: FAudioDevice initialized.
+[2017.09.08-01.17.10:408][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/davis/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.08-01.17.10:422][  0]LogInit: Texture streaming: Enabled
+[2017.09.08-01.17.10:492][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.08-01.17.10:645][  0]LogInit: Transaction tracking system initialized
+[2017.09.08-01.17.10:871][  0]BlueprintLog: New page: Editor Load
+[2017.09.08-01.17.11:556][  0]LocalizationService: Info Localization service is disabled
+[2017.09.08-01.17.12:051][  0]LogConsoleResponse:Display: 
+[2017.09.08-01.17.12:179][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.08-01.17.12:179][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.08-01.17.12:929][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/PinballGame/Content/' took 0.01s
+[2017.09.08-01.17.12:929][  0]SourceControl: Info Source control is disabled
+[2017.09.08-01.17.12:930][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.08-01.17.12:930][  0]LightingResults: New page: Lighting Build
+[2017.09.08-01.17.12:960][  0]MapCheck: New page: Map Check
+[2017.09.08-01.17.12:960][  0]LightingResults: New page: Lighting Build
+[2017.09.08-01.17.13:156][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.08-01.17.13:157][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.09.08-01.17.13:160][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.08-01.17.13:174][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.08-01.17.13:208][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.933ms to complete.
+[2017.09.08-01.17.13:208][  0]LogFileHelpers: Loading map 'Template_Default' took 0.279
+[2017.09.08-01.17.13:648][  0]LogCollectionManager: Loaded 0 collections in 0.001574 seconds
+[2017.09.08-01.17.13:773][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/PinballGame/Saved/Collections/' took 0.01s
+[2017.09.08-01.17.13:773][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/PinballGame/Content/Developers/davis/Collections/' took 0.01s
+[2017.09.08-01.17.13:773][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/PinballGame/Content/Collections/' took 0.01s
+[2017.09.08-01.17.13:773][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.08-01.17.13:785][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2329 classes and 491 folders.
+[2017.09.08-01.17.13:849][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.08-01.17.14:249][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.08-01.17.14:344][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.08-01.17.14:584][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.08-01.17.14:642][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.08-01.17.14:644][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.08-01.17.14:666][  0]LogSlate: Took 0.003559 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.08-01.17.14:980][  0]LogRenderer: Reallocating scene render targets to support 1208x620 NumSamples 1 (Frame:1).
+[2017.09.08-01.17.15:237][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.08-01.17.15:295][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.08-01.17.15:296][  0]LogLoad: (Engine Initialization) Total time: 22.68 seconds
+[2017.09.08-01.17.15:296][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2017.09.08-01.17.15:296][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.08-01.17.15:306][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.08-01.17.15:306][  0]LogOcInput: OculusInput pre-init called
+[2017.09.08-01.17.15:310][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.17.0
+[2017.09.08-01.17.15:311][  0]LogHMD: Starting GearVRController plugin
+[2017.09.08-01.17.15:330][  0]LogAssetRegistry: Asset discovery search completed in 14.7765 seconds
+[2017.09.08-01.17.15:332][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.08-01.17.15:332][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2017.09.08-01.17.15:341][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.08-01.17.15:457][  0]LogSlate: Took 0.014546 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.08-01.19.17:439][920]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-01.19.46:260][424]Cmd: MAP LOAD FILE="../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.08-01.19.46:280][424]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.08-01.19.46:287][424]LightingResults: New page: Lighting Build
+[2017.09.08-01.19.46:288][424]LoadErrors: New page: Loading map: PinBallMap.umap
+[2017.09.08-01.19.46:290][424]MapCheck: New page: Map Check
+[2017.09.08-01.19.46:290][424]LightingResults: New page: Lighting Build
+[2017.09.08-01.19.46:810][424]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-01.19.46:887][424]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.08-01.19.46:925][424]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.08-01.19.46:964][424]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.116ms to complete.
+[2017.09.08-01.19.46:964][424]LogFileHelpers: Loading map 'PinBallMap' took 0.704
+[2017.09.08-01.21.38:539][673]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.08-01.21.45:898][526]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.08-01.21.47:191][677]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.08-01.22.04:875][795]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball3)
+[2017.09.08-01.22.10:653][483]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.08-01.22.21:597][782]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball3)
+[2017.09.08-01.22.26:106][318]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-01.22.26:178][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-01.22.26:210][318]PIE: New page: PIE session: PinBallMap (Sep 7, 2017, 5:22:26 PM)
+[2017.09.08-01.22.26:210][318]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-01.22.26:240][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029719s)
+[2017.09.08-01.22.26:240][318]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-01.22.26:241][318]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2017.09.08-01.22.26:241][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.030468s)
+[2017.09.08-01.22.26:266][318]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.08-01.22.26:276][318]LogInit: FAudioDevice initialized.
+[2017.09.08-01.22.26:395][318]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-01.22.26:425][318]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.07-21.22.26
+[2017.09.08-01.22.26:437][318]LogWorld: Bringing up level for play took: 0.008687
+[2017.09.08-01.22.26:517][318]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.09.08-01.22.26:528][318]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap 1.034
+[2017.09.08-01.22.33:931][185]LogSlate: Took 0.006737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.08-01.22.40:864][896]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:1).
+[2017.09.08-01.22.58:312][762]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.09.08-01.23.03:646][381]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-01.23.03:657][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-01.23.03:658][381]PIE: New page: PIE session: PinBallMap (Sep 7, 2017, 5:23:03 PM)
+[2017.09.08-01.23.03:658][381]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-01.23.03:663][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005347s)
+[2017.09.08-01.23.03:663][381]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-01.23.03:663][381]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2017.09.08-01.23.03:664][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.006070s)
+[2017.09.08-01.23.03:707][381]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.08-01.23.03:716][381]LogInit: FAudioDevice initialized.
+[2017.09.08-01.23.03:750][381]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-01.23.03:753][381]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.07-21.23.03
+[2017.09.08-01.23.03:753][381]LogWorld: Bringing up level for play took: 0.001780
+[2017.09.08-01.23.03:754][381]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap 0.26
+[2017.09.08-01.23.14:244][592]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.08-01.23.41:357][803]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (PlungerMesh)
+[2017.09.08-01.23.53:571][179]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.09.08-01.23.54:303][179]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.08-01.23.54:549][179]LogSlate: Took 0.004363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.08-01.24.35:925][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_Plunger" FILE="../../../../../UnrealProjects/PinballGame/Content/Assets/SM_Plunger.uasset" SILENT=true
+[2017.09.08-01.24.35:987][277]LogSavePackage: Save=26.80ms
+[2017.09.08-01.24.35:987][277]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/SM_PlungerE8827F1B4BFF82143637DA85A5F8324E.tmp' to '../../../../../UnrealProjects/PinballGame/Content/Assets/SM_Plunger.uasset'
+[2017.09.08-01.24.36:009][277]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/Assets/SM_Plunger.uasset
+[2017.09.08-01.24.42:249][977]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush)
+[2017.09.08-01.24.43:160][ 67]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.08-01.24.43:939][157]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.08-01.24.51:492][ 57]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.08-01.25.05:054][670]Cmd: TRANSACTION UNDO
+[2017.09.08-01.25.05:054][670]LogEditorTransaction: Undo Set actor scale
+[2017.09.08-01.25.05:067][670]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.08-01.25.19:939][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap" FILE="../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.08-01.25.20:046][447]LogSavePackage: Save=82.70ms
+[2017.09.08-01.25.20:046][447]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap10D4166944ACF2922644C4AADFF67A56.tmp' to '../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap'
+[2017.09.08-01.25.20:078][447]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap
+[2017.09.08-01.25.20:097][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap_BuiltData" FILE="../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset" SILENT=true
+[2017.09.08-01.25.20:141][447]LogSavePackage: Save=41.07ms
+[2017.09.08-01.25.20:141][447]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap_BuiltData9866FC154C4FCA6E023DBAA90D9DF5DA.tmp' to '../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset'
+[2017.09.08-01.25.20:152][447]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset
+[2017.09.08-01.25.29:409][552]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-01.25.29:421][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-01.25.29:421][552]PIE: New page: PIE session: PinBallMap (Sep 7, 2017, 5:25:29 PM)
+[2017.09.08-01.25.29:421][552]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-01.25.29:427][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005634s)
+[2017.09.08-01.25.29:427][552]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-01.25.29:427][552]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2017.09.08-01.25.29:427][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.006422s)
+[2017.09.08-01.25.29:452][552]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.08-01.25.29:461][552]LogInit: FAudioDevice initialized.
+[2017.09.08-01.25.29:491][552]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-01.25.29:493][552]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.07-21.25.29
+[2017.09.08-01.25.29:493][552]LogWorld: Bringing up level for play took: 0.001498
+[2017.09.08-01.25.29:494][552]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap 0
+[2017.09.08-01.25.37:412][463]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.08-01.25.41:166][909]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball3)
+[2017.09.08-01.25.43:849][225]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-01.25.43:861][225]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-01.25.43:861][225]PIE: New page: PIE session: PinBallMap (Sep 7, 2017, 5:25:43 PM)
+[2017.09.08-01.25.43:861][225]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-01.25.43:867][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005608s)
+[2017.09.08-01.25.43:867][225]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-01.25.43:868][225]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2017.09.08-01.25.43:868][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.006383s)
+[2017.09.08-01.25.43:891][225]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.08-01.25.43:901][225]LogInit: FAudioDevice initialized.
+[2017.09.08-01.25.43:934][225]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-01.25.43:936][225]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.07-21.25.43
+[2017.09.08-01.25.43:936][225]LogWorld: Bringing up level for play took: 0.001676
+[2017.09.08-01.25.43:937][225]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap 0.444
+[2017.09.08-01.25.51:880][119]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball3)
+[2017.09.08-01.25.52:612][205]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.08-01.25.54:660][447]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball3)
+[2017.09.08-01.26.00:420][133]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-01.26.00:431][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-01.26.00:431][133]PIE: New page: PIE session: PinBallMap (Sep 7, 2017, 5:26:00 PM)
+[2017.09.08-01.26.00:431][133]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-01.26.00:437][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005111s)
+[2017.09.08-01.26.00:437][133]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-01.26.00:437][133]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2017.09.08-01.26.00:437][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.005903s)
+[2017.09.08-01.26.00:462][133]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.08-01.26.00:472][133]LogInit: FAudioDevice initialized.
+[2017.09.08-01.26.00:501][133]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-01.26.00:504][133]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.07-21.26.00
+[2017.09.08-01.26.00:504][133]LogWorld: Bringing up level for play took: 0.001530
+[2017.09.08-01.26.00:505][133]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap 1.011
+[2017.09.08-01.26.05:956][757]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.08-01.26.12:213][498]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-01.26.12:225][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-01.26.12:226][498]PIE: New page: PIE session: PinBallMap (Sep 7, 2017, 5:26:12 PM)
+[2017.09.08-01.26.12:226][498]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-01.26.12:231][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005645s)
+[2017.09.08-01.26.12:232][498]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-01.26.12:232][498]LogPlayLevel: PIE: World Init took: (0.000651s)
+[2017.09.08-01.26.12:232][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.006517s)
+[2017.09.08-01.26.12:257][498]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.08-01.26.12:266][498]LogInit: FAudioDevice initialized.
+[2017.09.08-01.26.12:298][498]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-01.26.12:301][498]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.07-21.26.12
+[2017.09.08-01.26.12:301][498]LogWorld: Bringing up level for play took: 0.001505
+[2017.09.08-01.26.12:302][498]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap 0.808
+[2017.09.08-01.26.18:504][224]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-01.26.18:515][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-01.26.18:515][224]PIE: New page: PIE session: PinBallMap (Sep 7, 2017, 5:26:18 PM)
+[2017.09.08-01.26.18:515][224]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-01.26.18:520][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005042s)
+[2017.09.08-01.26.18:521][224]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-01.26.18:521][224]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2017.09.08-01.26.18:521][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.005763s)
+[2017.09.08-01.26.18:545][224]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.08-01.26.18:555][224]LogInit: FAudioDevice initialized.
+[2017.09.08-01.26.18:590][224]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-01.26.18:592][224]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.07-21.26.18
+[2017.09.08-01.26.18:593][224]LogWorld: Bringing up level for play took: 0.002046
+[2017.09.08-01.26.18:594][224]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap -0.9
+[2017.09.08-01.26.28:213][358]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.09.08-01.26.46:013][459]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-01.26.55:964][523]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-01.26.57:670][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap" FILE="../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.08-01.26.57:774][721]LogSavePackage: Save=84.63ms
+[2017.09.08-01.26.57:774][721]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap504601A140B162136D0DF5862458C593.tmp' to '../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap'
+[2017.09.08-01.26.57:775][721]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap
+[2017.09.08-01.26.57:794][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap_BuiltData" FILE="../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset" SILENT=true
+[2017.09.08-01.26.57:821][721]LogSavePackage: Save=24.77ms
+[2017.09.08-01.26.57:821][721]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap_BuiltDataA71091974A3239C500A8E68B1674D805.tmp' to '../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset'
+[2017.09.08-01.26.57:822][721]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset
+[2017.09.08-01.32.08:531][634]BlueprintLog: New page: Compile BP_Plunger
+[2017.09.08-01.32.09:617][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Plunger" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset" SILENT=true
+[2017.09.08-01.32.09:681][676]LogSavePackage: Save=60.58ms
+[2017.09.08-01.32.09:681][676]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/BP_Plunger4E8D32DE47D1709F4F0ACFBE71B07C0F.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset'
+[2017.09.08-01.32.09:697][676]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset
+[2017.09.08-01.32.19:744][563]LogSlate: Took 0.006434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.09.08-01.32.50:399][499]BlueprintLog: New page: Compile BP_Plunger
+[2017.09.08-01.32.51:185][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Plunger" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset" SILENT=true
+[2017.09.08-01.32.51:216][534]LogSavePackage: Save=28.57ms
+[2017.09.08-01.32.51:216][534]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/BP_Plunger37FE68A94B7F48B0C254D4A862C4BEAB.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset'
+[2017.09.08-01.32.51:218][534]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset
+[2017.09.08-01.32.56:616][110]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.08-01.33.02:210][769]Cmd: TRANSACTION UNDO
+[2017.09.08-01.33.02:210][769]LogEditorTransaction: Undo Move Actors
+[2017.09.08-01.33.19:185][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap" FILE="../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.08-01.33.19:291][623]LogSavePackage: Save=82.58ms
+[2017.09.08-01.33.19:292][623]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMapF7EEF71D4DC5351349D8C4A5ED5BDD36.tmp' to '../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap'
+[2017.09.08-01.33.19:293][623]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap
+[2017.09.08-01.33.19:312][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap_BuiltData" FILE="../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset" SILENT=true
+[2017.09.08-01.33.19:341][623]LogSavePackage: Save=25.73ms
+[2017.09.08-01.33.19:341][623]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap_BuiltDataFA9BF161492D470DCFC80AA93323920B.tmp' to '../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset'
+[2017.09.08-01.33.19:342][623]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset
+[2017.09.08-01.33.34:502][624]BlueprintLog: New page: Compile BP_Plunger
+[2017.09.08-01.33.35:266][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Plunger" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset" SILENT=true
+[2017.09.08-01.33.35:297][659]LogSavePackage: Save=29.03ms
+[2017.09.08-01.33.35:297][659]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/BP_PlungerEE62EB7046DA5F935746E1BE4D5801FD.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset'
+[2017.09.08-01.33.35:299][659]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset
+[2017.09.08-01.33.57:308][251]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball3)
+[2017.09.08-01.34.00:377][606]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.08-01.34.03:873][ 16]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2017.09.08-01.44.14:063][787]BlueprintLog: New page: Compile BP_Plunger
+[2017.09.08-01.44.15:009][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Plunger" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset" SILENT=true
+[2017.09.08-01.44.15:048][880]LogSavePackage: Save=31.81ms
+[2017.09.08-01.44.15:048][880]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/BP_Plunger6AF44AF247D6E4B7455945AEC3DFCB75.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset'
+[2017.09.08-01.44.15:049][880]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset
+[2017.09.08-01.44.24:420][294]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball3)
+[2017.09.08-01.44.26:028][483]Cmd: DELETE
+[2017.09.08-01.44.26:028][483]Cmd: ACTOR DELETE
+[2017.09.08-01.44.26:155][483]LogEditorActor: Deleted Actor: BP_Ball_C
+[2017.09.08-01.44.26:171][483]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.09.08-01.44.28:225][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap" FILE="../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.08-01.44.28:328][727]LogSavePackage: Save=83.96ms
+[2017.09.08-01.44.28:328][727]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMapE83050F943CC78E1553BE39F5BA458C4.tmp' to '../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap'
+[2017.09.08-01.44.28:330][727]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap
+[2017.09.08-01.44.28:350][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap_BuiltData" FILE="../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset" SILENT=true
+[2017.09.08-01.44.28:378][727]LogSavePackage: Save=25.00ms
+[2017.09.08-01.44.28:378][727]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap_BuiltData972AD93545049FE8A50A3FAE968594AB.tmp' to '../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset'
+[2017.09.08-01.44.28:378][727]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset
+[2017.09.08-01.46.52:656][632]BlueprintLog: New page: Compile BP_Plunger
+[2017.09.08-01.46.53:460][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Plunger" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset" SILENT=true
+[2017.09.08-01.46.53:497][691]LogSavePackage: Save=33.51ms
+[2017.09.08-01.46.53:497][691]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/BP_PlungerAC3CD5CC48928A2300504E8699866565.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset'
+[2017.09.08-01.46.53:499][691]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset
+[2017.09.08-01.49.36:580][475]LogEditorTransaction: Undo Remove Graph
+[2017.09.08-01.49.47:438][770]BlueprintLog: New page: Compile BP_Plunger
+[2017.09.08-01.49.48:088][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Plunger" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset" SILENT=true
+[2017.09.08-01.49.48:127][829]LogSavePackage: Save=31.92ms
+[2017.09.08-01.49.48:127][829]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/BP_Plunger962096764A9BCFF9E262949BE668D296.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset'
+[2017.09.08-01.49.48:129][829]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset
+[2017.09.08-01.50.27:581][241]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.08-01.50.49:122][427]LogEditorTransaction: Undo Create Pin Link
+[2017.09.08-01.51.11:754][120]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.08-01.51.12:378][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballGameMode" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset" SILENT=true
+[2017.09.08-01.51.12:396][181]LogSavePackage: Save=13.91ms
+[2017.09.08-01.51.12:396][181]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameMode94D41D414FAFBD2CADBA0784BDA571DA.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset'
+[2017.09.08-01.51.12:408][181]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset
+[2017.09.08-01.51.15:351][533]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-01.51.15:368][533]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-01.51.15:369][533]PIE: New page: PIE session: PinBallMap (Sep 7, 2017, 5:51:15 PM)
+[2017.09.08-01.51.15:369][533]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-01.51.15:375][533]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006257s)
+[2017.09.08-01.51.15:375][533]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-01.51.15:375][533]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2017.09.08-01.51.15:376][533]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.007033s)
+[2017.09.08-01.51.15:402][533]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.08-01.51.15:411][533]LogInit: FAudioDevice initialized.
+[2017.09.08-01.51.15:443][533]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-01.51.15:445][533]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.07-21.51.15
+[2017.09.08-01.51.15:445][533]LogWorld: Bringing up level for play took: 0.001552
+[2017.09.08-01.51.15:466][533]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap -0.028
+[2017.09.08-01.51.24:273][579]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.08-01.51.26:176][798]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.08-01.51.32:536][543]LogEditorViewport: Clicking Background
+[2017.09.08-01.54.36:180][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap" FILE="../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.08-01.54.36:267][875]LogSavePackage: Save=82.77ms
+[2017.09.08-01.54.36:267][875]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap_Auto147702A2040E0C31A7C71F6859D58B11D.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto1.umap'
+[2017.09.08-01.54.36:285][875]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto1.umap
+[2017.09.08-01.54.36:287][875]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinBallMap' took 0.148
+[2017.09.08-01.54.36:287][875]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.148
+[2017.09.08-01.59.30:793][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballGameMode" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset" SILENT=true
+[2017.09.08-01.59.30:814][648]LogSavePackage: Save=17.51ms
+[2017.09.08-01.59.30:814][648]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameMode81B44AD64592334A4DD864BD59116420.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset'
+[2017.09.08-01.59.30:816][648]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset
+[2017.09.08-01.59.31:890][777]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.08-01.59.34:108][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballGameMode" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset" SILENT=true
+[2017.09.08-01.59.34:128][ 23]LogSavePackage: Save=17.14ms
+[2017.09.08-01.59.34:128][ 23]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameModeE1F99C184FCEDAA559B91EB27E8F8667.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset'
+[2017.09.08-01.59.34:129][ 23]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset
+[2017.09.08-01.59.34:951][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Plunger" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset" SILENT=true
+[2017.09.08-01.59.34:985][118]LogSavePackage: Save=26.88ms
+[2017.09.08-01.59.34:985][118]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/BP_PlungerD6BDB4044B080381CD4DA789244C740F.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset'
+[2017.09.08-01.59.34:986][118]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Plunger.uasset
+[2017.09.08-01.59.35:252][150]BlueprintLog: New page: Compile BP_Plunger
+[2017.09.08-01.59.37:122][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap" FILE="../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.08-01.59.37:228][357]LogSavePackage: Save=83.95ms
+[2017.09.08-01.59.37:228][357]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap8E6064294622AC5C79E53CBB59BEFB3B.tmp' to '../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap'
+[2017.09.08-01.59.37:229][357]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap
+[2017.09.08-01.59.37:249][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap_BuiltData" FILE="../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset" SILENT=true
+[2017.09.08-01.59.37:278][357]LogSavePackage: Save=25.88ms
+[2017.09.08-01.59.37:279][357]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap_BuiltData014CE1C7426E1601D80B679B88D8244F.tmp' to '../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset'
+[2017.09.08-01.59.37:279][357]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset
+[2017.09.08-02.04.22:953][560]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-02.04.22:967][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-02.04.22:967][560]PIE: New page: PIE session: PinBallMap (Sep 7, 2017, 6:04:22 PM)
+[2017.09.08-02.04.22:967][560]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-02.04.22:973][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006368s)
+[2017.09.08-02.04.22:974][560]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-02.04.22:974][560]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2017.09.08-02.04.22:974][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.007252s)
+[2017.09.08-02.04.23:003][560]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.08-02.04.23:013][560]LogInit: FAudioDevice initialized.
+[2017.09.08-02.04.23:045][560]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-02.04.23:048][560]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.07-22.04.23
+[2017.09.08-02.04.23:048][560]LogWorld: Bringing up level for play took: 0.001752
+[2017.09.08-02.04.23:049][560]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap -0.444
+[2017.09.08-02.04.30:913][491]LogEditorViewport: Clicking on Actor (LMB): BP_Bumper_C (BP_Bumper2)
+[2017.09.08-02.05.20:192][293]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-02.05.20:205][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-02.05.20:205][293]PIE: New page: PIE session: PinBallMap (Sep 7, 2017, 6:05:20 PM)
+[2017.09.08-02.05.20:205][293]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-02.05.20:211][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005424s)
+[2017.09.08-02.05.20:211][293]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-02.05.20:211][293]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2017.09.08-02.05.20:211][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.006248s)
+[2017.09.08-02.05.20:237][293]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.08-02.05.20:247][293]LogInit: FAudioDevice initialized.
+[2017.09.08-02.05.20:315][293]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-02.05.20:318][293]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.07-22.05.20
+[2017.09.08-02.05.20:318][293]LogWorld: Bringing up level for play took: 0.001761
+[2017.09.08-02.05.20:321][293]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap 0.827
+[2017.09.08-02.07.49:600][544]BlueprintLog: New page: Compile BallResetZone
+[2017.09.08-02.07.50:315][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BallResetZone" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/BallResetZone.uasset" SILENT=true
+[2017.09.08-02.07.50:327][607]LogSavePackage: Save=11.16ms
+[2017.09.08-02.07.50:327][607]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/BallResetZoneB2B9DBFA4BDCBAEEAB995DAA9E933F5E.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/BallResetZone.uasset'
+[2017.09.08-02.07.50:329][607]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/BallResetZone.uasset
+[2017.09.08-02.07.57:986][249]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.08.48:939][894]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush3)
+[2017.09.08-02.08.50:003][987]LogGeometryMode:Warning: Unable to find BoxBrush2 Brush(s) in new BSP
+[2017.09.08-02.08.50:003][987]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.09.08-02.08.53:263][310]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.09.00:258][121]Cmd: DELETE
+[2017.09.08-02.09.00:265][121]Cmd: ACTOR DELETE
+[2017.09.08-02.09.00:266][121]LogEditorActor: Deleted Actor: Brush
+[2017.09.08-02.09.00:290][121]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2017.09.08-02.09.04:872][665]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush6)
+[2017.09.08-02.09.12:855][532]Cmd: ACTOR MIRROR Y=-1
+[2017.09.08-02.09.14:441][721]Cmd: TRANSACTION UNDO
+[2017.09.08-02.09.14:441][721]LogEditorTransaction: Undo Mirroring Actors
+[2017.09.08-02.09.15:267][811]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush6)
+[2017.09.08-02.09.17:786][ 64]Cmd: ACTOR MIRROR Z=-1
+[2017.09.08-02.09.18:838][189]Cmd: TRANSACTION UNDO
+[2017.09.08-02.09.18:838][189]LogEditorTransaction: Undo Mirroring Actors
+[2017.09.08-02.09.19:524][264]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush6)
+[2017.09.08-02.09.21:702][489]Cmd: ACTOR MIRROR X=-1
+[2017.09.08-02.09.29:368][332]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Flipper2)
+[2017.09.08-02.09.34:720][969]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Flipper)
+[2017.09.08-02.09.39:200][477]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.09.39:962][545]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Flipper)
+[2017.09.08-02.09.55:028][344]LogEditorViewport: Clicking on Actor (LMB): Flipper_C (Flipper2)
+[2017.09.08-02.10.18:189][ 91]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2017.09.08-02.10.21:348][439]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.10.21:862][497]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.10.22:370][556]LogEditorViewport: Clicking on Actor (LMB): BallResetZone_C (BallResetZone)
+[2017.09.08-02.10.23:369][673]LogEditorViewport: Clicking on Actor (LMB): BallResetZone_C (BallResetZone)
+[2017.09.08-02.10.26:877][ 92]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.10.27:602][176]LogEditorViewport: Clicking on Actor (LMB): BallResetZone_C (BallResetZone)
+[2017.09.08-02.10.28:211][246]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.10.28:929][329]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.10.32:960][810]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.10.35:713][ 98]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.10.36:212][156]LogEditorViewport: Clicking on Actor (LMB): BallResetZone_C (BallResetZone)
+[2017.09.08-02.10.37:460][281]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.10.38:877][445]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.10.39:301][494]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.10.39:891][563]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.10.40:264][606]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.10.40:586][643]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2017.09.08-02.10.43:924][  5]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2017.09.08-02.10.44:291][ 47]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.10.44:676][ 92]LogEditorViewport: Clicking on Actor (LMB): BallResetZone_C (BallResetZone)
+[2017.09.08-02.10.48:352][529]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.10.50:114][735]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.10.51:595][910]LogEditorViewport: Clicking on Actor (CTRL LMB): BallResetZone_C (BallResetZone)
+[2017.09.08-02.10.54:705][279]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.11.19:742][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap" FILE="../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.08-02.11.19:848][736]LogSavePackage: Save=101.04ms
+[2017.09.08-02.11.19:848][736]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap_Auto2FCAE708042D5951A19B57481A1A95E63.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto2.umap'
+[2017.09.08-02.11.19:862][736]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto2.umap
+[2017.09.08-02.11.19:863][736]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinBallMap' took 0.140
+[2017.09.08-02.11.19:863][736]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.140
+[2017.09.08-02.12.13:586][613]Cmd: DELETE
+[2017.09.08-02.12.13:586][613]Cmd: ACTOR DELETE
+[2017.09.08-02.12.13:587][613]LogEditorActor: Deleted Actor: BallResetZone_C
+[2017.09.08-02.12.13:605][613]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.09.08-02.13.39:660][521]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush6)
+[2017.09.08-02.14.04:786][410]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush3)
+[2017.09.08-02.14.45:178][993]LogGeometryMode:Warning: Unable to find BoxBrush6 Brush(s) in new BSP
+[2017.09.08-02.14.45:178][993]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.09.08-02.14.49:301][440]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.15.00:457][748]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.15.02:629][  5]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-02.15.02:646][  5]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-02.15.02:646][  5]PIE: New page: PIE session: PinBallMap (Sep 7, 2017, 6:15:02 PM)
+[2017.09.08-02.15.02:646][  5]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-02.15.02:652][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005937s)
+[2017.09.08-02.15.02:653][  5]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-02.15.02:653][  5]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2017.09.08-02.15.02:653][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.006766s)
+[2017.09.08-02.15.02:682][  5]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.08-02.15.02:692][  5]LogInit: FAudioDevice initialized.
+[2017.09.08-02.15.02:724][  5]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-02.15.02:726][  5]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.07-22.15.02
+[2017.09.08-02.15.02:772][  5]LogWorld: Bringing up level for play took: 0.047531
+[2017.09.08-02.15.02:774][  5]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap -0.72
+[2017.09.08-02.21.48:027][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap" FILE="../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.08-02.21.48:166][546]LogSavePackage: Save=133.84ms
+[2017.09.08-02.21.48:166][546]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap_Auto35C5145A14E02FA0CF6F6FC9699ECA272.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto3.umap'
+[2017.09.08-02.21.48:166][546]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto3.umap
+[2017.09.08-02.21.48:168][546]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinBallMap' took 0.160
+[2017.09.08-02.21.48:168][546]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.160
+[2017.09.08-02.24.52:340][653]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.08-02.24.53:094][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballGameMode" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset" SILENT=true
+[2017.09.08-02.24.53:116][717]LogSavePackage: Save=18.33ms
+[2017.09.08-02.24.53:116][717]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameModeE1DFA9FE4826A3B3135570B29A510642.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset'
+[2017.09.08-02.24.53:117][717]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset
+[2017.09.08-02.25.58:045][449]LogEditorTransaction: Undo Add Node
+[2017.09.08-02.27.43:411][664]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.08-02.27.43:921][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballGameMode" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset" SILENT=true
+[2017.09.08-02.27.43:951][709]LogSavePackage: Save=26.54ms
+[2017.09.08-02.27.43:951][709]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameModeE6BA406A4B2506A79519E996EEE19E41.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset'
+[2017.09.08-02.27.43:953][709]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset
+[2017.09.08-02.30.46:566][656]BlueprintLog: New page: Compile BP_Bumper
+[2017.09.08-02.30.47:525][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Bumper" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Bumper.uasset" SILENT=true
+[2017.09.08-02.30.47:585][752]LogSavePackage: Save=55.75ms
+[2017.09.08-02.30.47:585][752]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/BP_Bumper708B80D140011468078CA29CCF0ED29F.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Bumper.uasset'
+[2017.09.08-02.30.47:587][752]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Bumper.uasset
+[2017.09.08-02.30.49:126][936]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-02.30.49:139][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-02.30.49:140][936]PIE: New page: PIE session: PinBallMap (Sep 7, 2017, 6:30:49 PM)
+[2017.09.08-02.30.49:140][936]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-02.30.49:145][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005635s)
+[2017.09.08-02.30.49:146][936]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-02.30.49:146][936]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2017.09.08-02.30.49:146][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.006434s)
+[2017.09.08-02.30.49:174][936]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.08-02.30.49:184][936]LogInit: FAudioDevice initialized.
+[2017.09.08-02.30.49:212][936]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-02.30.49:215][936]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.07-22.30.49
+[2017.09.08-02.30.49:215][936]LogWorld: Bringing up level for play took: 0.001639
+[2017.09.08-02.30.49:216][936]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap -0.277
+[2017.09.08-02.30.52:160][287]LogBlueprintUserMessages: [BP_Bumper5] 0.0
+[2017.09.08-02.30.53:050][394]LogBlueprintUserMessages: [BP_Bumper7] 0.0
+[2017.09.08-02.30.53:734][476]LogBlueprintUserMessages: [BP_Bumper7] 0.0
+[2017.09.08-02.30.55:109][641]LogBlueprintUserMessages: [BP_Bumper7] 0.0
+[2017.09.08-02.30.57:884][974]LogBlueprintUserMessages: [BP_Bumper4] 0.0
+[2017.09.08-02.30.58:993][107]LogBlueprintUserMessages: [BP_Bumper3] 0.0
+[2017.09.08-02.30.59:550][174]LogBlueprintUserMessages: [BP_Bumper3] 0.0
+[2017.09.08-02.31.24:013][191]BlueprintLog: New page: Compile BP_Bumper
+[2017.09.08-02.31.24:528][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Bumper" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Bumper.uasset" SILENT=true
+[2017.09.08-02.31.24:587][234]LogSavePackage: Save=55.59ms
+[2017.09.08-02.31.24:587][234]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/BP_BumperB5D32CF64BC5C78FC85D748FDE7ED45D.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Bumper.uasset'
+[2017.09.08-02.31.24:589][234]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Bumper.uasset
+[2017.09.08-02.31.27:753][613]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-02.31.27:767][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-02.31.27:767][613]PIE: New page: PIE session: PinBallMap (Sep 7, 2017, 6:31:27 PM)
+[2017.09.08-02.31.27:767][613]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-02.31.27:773][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005840s)
+[2017.09.08-02.31.27:773][613]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-02.31.27:774][613]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2017.09.08-02.31.27:774][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.006606s)
+[2017.09.08-02.31.27:801][613]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.08-02.31.27:810][613]LogInit: FAudioDevice initialized.
+[2017.09.08-02.31.27:840][613]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-02.31.27:842][613]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.07-22.31.27
+[2017.09.08-02.31.27:842][613]LogWorld: Bringing up level for play took: 0.001539
+[2017.09.08-02.31.27:844][613]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap 0.35
+[2017.09.08-02.31.30:205][895]LogBlueprintUserMessages: [BP_Bumper5] 10.0
+[2017.09.08-02.31.31:130][  6]LogBlueprintUserMessages: [BP_Bumper7] 20.0
+[2017.09.08-02.31.31:689][ 73]LogBlueprintUserMessages: [BP_Bumper7] 30.0
+[2017.09.08-02.31.33:838][331]LogBlueprintUserMessages: [BP_Bumper2] 40.0
+[2017.09.08-02.31.36:230][618]LogBlueprintUserMessages: [BP_Bumper7] 50.0
+[2017.09.08-02.31.38:973][947]LogBlueprintUserMessages: [BP_Bumper7] 60.0
+[2017.09.08-02.31.40:973][187]LogBlueprintUserMessages: [BP_Bumper5] 70.0
+[2017.09.08-02.31.42:623][385]LogBlueprintUserMessages: [BP_Bumper2] 80.0
+[2017.09.08-02.31.44:615][624]LogBlueprintUserMessages: [BP_Bumper2] 90.0
+[2017.09.08-02.31.44:748][640]LogBlueprintUserMessages: [BP_Bumper4] 100.0
+[2017.09.08-02.31.47:107][923]LogBlueprintUserMessages: [BP_Bumper6] 110.0
+[2017.09.08-02.31.49:173][171]LogBlueprintUserMessages: [BP_Bumper4] 120.0
+[2017.09.08-02.31.49:623][225]LogBlueprintUserMessages: [BP_Bumper7] 130.0
+[2017.09.08-02.32.17:247][278]BlueprintLog: New page: Compile BP_Bumper
+[2017.09.08-02.32.17:757][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Bumper" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Bumper.uasset" SILENT=true
+[2017.09.08-02.32.17:813][320]LogSavePackage: Save=52.98ms
+[2017.09.08-02.32.17:813][320]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/BP_Bumper4C81A9A5400777D7F7432BAB422CC214.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Bumper.uasset'
+[2017.09.08-02.32.17:814][320]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Bumper.uasset
+[2017.09.08-02.32.18:646][419]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-02.32.18:660][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-02.32.18:660][419]PIE: New page: PIE session: PinBallMap (Sep 7, 2017, 6:32:18 PM)
+[2017.09.08-02.32.18:660][419]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-02.32.18:666][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005592s)
+[2017.09.08-02.32.18:666][419]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-02.32.18:667][419]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2017.09.08-02.32.18:667][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.006453s)
+[2017.09.08-02.32.18:695][419]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.08-02.32.18:704][419]LogInit: FAudioDevice initialized.
+[2017.09.08-02.32.18:759][419]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-02.32.18:762][419]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.07-22.32.18
+[2017.09.08-02.32.18:762][419]LogWorld: Bringing up level for play took: 0.001716
+[2017.09.08-02.32.18:766][419]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap -0.728
+[2017.09.08-02.32.41:432][694]Cmd: TRANSACTION UNDO
+[2017.09.08-02.32.41:432][694]LogEditorTransaction: Undo Move Actors
+[2017.09.08-02.32.41:434][694]LogActorComponent: ~FComponentReregisterContext: (/Game/PinBallMap.PinBallMap:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2017.09.08-02.32.43:045][880]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.32.49:098][584]Cmd: TRANSACTION UNDO
+[2017.09.08-02.32.49:098][584]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.08-02.32.51:034][808]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.32.51:827][900]Cmd: TRANSACTION UNDO
+[2017.09.08-02.32.51:827][900]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.08-02.32.52:153][936]Cmd: TRANSACTION UNDO
+[2017.09.08-02.32.52:154][936]LogEditorTransaction: Undo Select Brush Surface
+[2017.09.08-02.32.52:741][  2]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.32.53:068][ 38]Cmd: TRANSACTION UNDO
+[2017.09.08-02.32.53:068][ 38]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.08-02.32.53:367][ 70]Cmd: TRANSACTION UNDO
+[2017.09.08-02.32.53:367][ 70]LogEditorTransaction: Undo Select Brush Surface
+[2017.09.08-02.32.53:905][132]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.32.54:259][172]Cmd: TRANSACTION UNDO
+[2017.09.08-02.32.54:259][172]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.08-02.32.54:731][227]Cmd: TRANSACTION UNDO
+[2017.09.08-02.32.54:731][227]LogEditorTransaction: Undo Create Pin Link
+[2017.09.08-02.33.14:016][497]BlueprintLog: New page: Compile BP_Bumper
+[2017.09.08-02.33.14:545][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Bumper" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Bumper.uasset" SILENT=true
+[2017.09.08-02.33.14:603][541]LogSavePackage: Save=53.94ms
+[2017.09.08-02.33.14:603][541]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/BP_Bumper9D320ECD4F8007FC120CB1B0592D86EC.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Bumper.uasset'
+[2017.09.08-02.33.14:604][541]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/BP_Bumper.uasset
+[2017.09.08-02.33.16:931][810]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.08-02.33.16:992][810]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.08-02.33.17:056][810]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.09.08-02.33.20:293][ 68]LogEditorViewport: Clicking on Actor (context menu): Brush (Box Brush2)
+[2017.09.08-02.33.20:733][116]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-02.34.09:308][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap" FILE="../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.08-02.34.09:456][880]LogSavePackage: Save=143.53ms
+[2017.09.08-02.34.09:456][880]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap_Auto49BF934554CB3B55DFC36EC9C393591CA.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto4.umap'
+[2017.09.08-02.34.09:457][880]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto4.umap
+[2017.09.08-02.34.09:458][880]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinBallMap' took 0.168
+[2017.09.08-02.34.09:458][880]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.168
+[2017.09.08-02.42.50:546][384]LogLinker: Can't find file '/Game/BluePrints/PinballHUd'
+[2017.09.08-02.42.50:546][384]LogLinker: Can't find file '/Game/BluePrints/PinballHUd'
+[2017.09.08-02.44.10:261][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinBallMap' took 0.017
+[2017.09.08-02.44.10:278][ 97]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/PinballHUd] ([1] browsable assets)...
+[2017.09.08-02.44.10:278][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PinballHUd]
+[2017.09.08-02.44.10:278][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballHUd" FILE="../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballHUd_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.09.08-02.44.10:285][ 97]LogSavePackage: Save=5.89ms
+[2017.09.08-02.44.10:285][ 97]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballHUd_Auto527C32D8D42B200D50D1E7D81DCF9DEBB.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballHUd_Auto5.uasset'
+[2017.09.08-02.44.10:286][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballHUd_Auto5.uasset
+[2017.09.08-02.44.10:286][ 97]LogFileHelpers: Auto-saving content packages took 0.024
+[2017.09.08-02.54.34:591][696]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinBallMap' took 0.018
+[2017.09.08-02.54.34:592][696]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/PinballHUd] ([1] browsable assets)...
+[2017.09.08-02.54.34:592][696]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PinballHUd]
+[2017.09.08-02.54.34:592][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballHUd" FILE="../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballHUd_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.09.08-02.54.34:600][696]LogSavePackage: Save=6.76ms
+[2017.09.08-02.54.34:600][696]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballHUd_Auto64116AC104FDA30D4113D47878B982C1F.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballHUd_Auto6.uasset'
+[2017.09.08-02.54.34:601][696]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballHUd_Auto6.uasset
+[2017.09.08-02.54.34:601][696]LogFileHelpers: Auto-saving content packages took 0.009
+[2017.09.08-03.05.17:632][471]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinBallMap' took 0.017
+[2017.09.08-03.05.17:634][471]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/PinballHUd] ([1] browsable assets)...
+[2017.09.08-03.05.17:634][471]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PinballHUd]
+[2017.09.08-03.05.17:634][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballHUd" FILE="../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballHUd_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.09.08-03.05.17:642][471]LogSavePackage: Save=7.34ms
+[2017.09.08-03.05.17:642][471]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballHUd_Auto7185E098140FED4A7C0D4B19C5F0D2985.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballHUd_Auto7.uasset'
+[2017.09.08-03.05.17:643][471]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballHUd_Auto7.uasset
+[2017.09.08-03.05.17:643][471]LogFileHelpers: Auto-saving content packages took 0.010
+[2017.09.08-03.07.01:714][541]BlueprintLog: New page: Compile PinballHUd
+[2017.09.08-03.07.01:821][541]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.08-03.07.02:343][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballHUd" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballHUd.uasset" SILENT=true
+[2017.09.08-03.07.02:360][573]LogSavePackage: Save=7.55ms
+[2017.09.08-03.07.02:360][573]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballHUd56C025C743B9F7002BDAE8A058D86D3D.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballHUd.uasset'
+[2017.09.08-03.07.02:362][573]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballHUd.uasset
+[2017.09.08-03.10.52:936][570]BlueprintLog: New page: Compile PinballHUd
+[2017.09.08-03.10.52:960][570]LogBlueprint:Error: [Compiler PinballHUd] Error This blueprint (self) is not a GameModeBase, therefore ' Target ' must have a connection.
+[2017.09.08-03.10.53:131][570]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a GameModeBase, therefore ' Target ' must have a connection.
+[2017.09.08-03.10.53:131][570]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.08-03.10.53:132][570]LogBlueprint:Warning: [Compiler PinballHUd] Warning [6840.52] Compile of PinballHUd failed. 1 Fatal Issue(s) 0 Warning(s) [in 195 ms] (/Game/BluePrints/PinballHUd.PinballHUd)
+[2017.09.08-03.10.53:582][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballHUd" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballHUd.uasset" SILENT=true
+[2017.09.08-03.10.53:601][608]LogSavePackage: Save=14.19ms
+[2017.09.08-03.10.53:601][608]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballHUd8F9BC637471005E844DEEDA990FA4AB4.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballHUd.uasset'
+[2017.09.08-03.10.53:602][608]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballHUd.uasset
+[2017.09.08-03.11.37:553][163]BlueprintLog: New page: Compile PinballHUd
+[2017.09.08-03.11.37:675][163]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.08-03.11.38:227][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballHUd" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballHUd.uasset" SILENT=true
+[2017.09.08-03.11.38:247][219]LogSavePackage: Save=16.61ms
+[2017.09.08-03.11.38:247][219]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballHUd74323EF84DD22220C7493A80DFD4E233.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballHUd.uasset'
+[2017.09.08-03.11.38:249][219]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballHUd.uasset
+[2017.09.08-03.12.09:593][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballPlayerController" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballPlayerController.uasset" SILENT=true
+[2017.09.08-03.12.09:647][ 15]LogSavePackage: Save=50.22ms
+[2017.09.08-03.12.09:647][ 15]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballPlayerController2D83E09740DFC090EB981BBDDE266891.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballPlayerController.uasset'
+[2017.09.08-03.12.09:663][ 15]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballPlayerController.uasset
+[2017.09.08-03.12.11:578][200]BlueprintLog: New page: Compile PinballPlayerController
+[2017.09.08-03.12.12:193][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballPlayerController" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballPlayerController.uasset" SILENT=true
+[2017.09.08-03.12.12:247][245]LogSavePackage: Save=50.58ms
+[2017.09.08-03.12.12:247][245]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballPlayerController6C9596714BB0D0714B0E70BF2935124D.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballPlayerController.uasset'
+[2017.09.08-03.12.12:248][245]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballPlayerController.uasset
+[2017.09.08-03.13.13:374][509]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.08-03.15.18:448][106]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinBallMap' took 0.016
+[2017.09.08-03.15.18:449][106]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/PinballPlayerController] ([1] browsable assets)...
+[2017.09.08-03.15.18:449][106]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PinballPlayerController]
+[2017.09.08-03.15.18:504][106]LogSavePackage: Save=50.86ms
+[2017.09.08-03.15.18:504][106]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballPlayerController_Auto82669DA4F40853D9335B7BA92A1AD42E0.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballPlayerController_Auto8.uasset'
+[2017.09.08-03.15.18:504][106]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballPlayerController_Auto8.uasset
+[2017.09.08-03.15.18:504][106]LogFileHelpers: Auto-saving content packages took 0.056
+[2017.09.08-03.21.01:802][890]BlueprintLog: New page: Compile PinballPlayerController
+[2017.09.08-03.21.02:459][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballPlayerController" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballPlayerController.uasset" SILENT=true
+[2017.09.08-03.21.02:533][940]LogSavePackage: Save=54.16ms
+[2017.09.08-03.21.02:533][940]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballPlayerControllerCDBF280E427F3C564F781E9870C27FD1.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballPlayerController.uasset'
+[2017.09.08-03.21.02:535][940]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballPlayerController.uasset
+[2017.09.08-03.21.06:650][364]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-03.21.06:662][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-03.21.06:662][364]PIE: New page: PIE session: PinBallMap (Sep 7, 2017, 7:21:06 PM)
+[2017.09.08-03.21.06:662][364]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-03.21.06:678][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016020s)
+[2017.09.08-03.21.06:679][364]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-03.21.06:679][364]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2017.09.08-03.21.06:679][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.017124s)
+[2017.09.08-03.21.06:705][364]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.08-03.21.06:715][364]LogInit: FAudioDevice initialized.
+[2017.09.08-03.21.06:743][364]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-03.21.06:745][364]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.07-23.21.06
+[2017.09.08-03.21.06:745][364]LogWorld: Bringing up level for play took: 0.001532
+[2017.09.08-03.21.06:777][364]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap -0.717
+[2017.09.08-03.21.23:942][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap" FILE="../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.08-03.21.24:094][406]LogSavePackage: Save=132.70ms
+[2017.09.08-03.21.24:094][406]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap6647855B49C1B502E1457A899E6F2087.tmp' to '../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap'
+[2017.09.08-03.21.24:095][406]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap
+[2017.09.08-03.21.24:117][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap_BuiltData" FILE="../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset" SILENT=true
+[2017.09.08-03.21.24:146][406]LogSavePackage: Save=24.58ms
+[2017.09.08-03.21.24:146][406]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap_BuiltData1C672A3E4D811C84F5D2CC92AFFA799F.tmp' to '../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset'
+[2017.09.08-03.21.24:146][406]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset
+[2017.09.08-03.55.05:271][883]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2017.09.08-03.59.23:214][465]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-03.59.26:415][843]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.09.08-04.00.32:569][ 24]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.08-04.00.33:341][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballGameMode" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset" SILENT=true
+[2017.09.08-04.00.33:373][ 83]LogSavePackage: Save=27.66ms
+[2017.09.08-04.00.33:373][ 83]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameMode0C00033D44DCCF4AF885D2BA8667830E.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset'
+[2017.09.08-04.00.33:375][ 83]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset
+[2017.09.08-04.01.17:387][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap" FILE="../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto9.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.08-04.01.17:476][488]LogSavePackage: Save=83.47ms
+[2017.09.08-04.01.17:476][488]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap_Auto9D8B75DEA4C3C7A7783D10CB6E9734E7D.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto9.umap'
+[2017.09.08-04.01.17:477][488]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto9.umap
+[2017.09.08-04.01.17:478][488]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinBallMap' took 0.111
+[2017.09.08-04.01.17:478][488]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.111
+[2017.09.08-04.01.17:480][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/PinballGameMode] ([1] browsable assets)...
+[2017.09.08-04.01.17:480][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PinballGameMode]
+[2017.09.08-04.01.17:480][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballGameMode" FILE="../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballGameMode_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.09.08-04.01.17:512][488]LogSavePackage: Save=29.23ms
+[2017.09.08-04.01.17:512][488]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameMode_Auto9506DB6034ABB043ED53A4FB429977F38.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballGameMode_Auto9.uasset'
+[2017.09.08-04.01.17:513][488]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballGameMode_Auto9.uasset
+[2017.09.08-04.01.17:513][488]LogFileHelpers: Auto-saving content packages took 0.034
+[2017.09.08-04.02.26:657][394]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.08-04.02.27:428][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballGameMode" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset" SILENT=true
+[2017.09.08-04.02.27:463][468]LogSavePackage: Save=31.99ms
+[2017.09.08-04.02.27:463][468]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameMode2D34F14C404C539E4F73CFA0345294F4.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset'
+[2017.09.08-04.02.27:465][468]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset
+[2017.09.08-04.04.33:370][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreStruct" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreStruct.uasset" SILENT=true
+[2017.09.08-04.04.33:373][157]LogSavePackage: Save=2.00ms
+[2017.09.08-04.04.33:373][157]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreStruct699E953E4B822A1DA83E0BB376633E3A.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreStruct.uasset'
+[2017.09.08-04.04.33:375][157]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreStruct.uasset
+[2017.09.08-04.04.57:874][ 91]BlueprintLog: New page: Compile HighScoreSave
+[2017.09.08-04.04.58:804][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreSave" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset" SILENT=true
+[2017.09.08-04.04.58:808][189]LogSavePackage: Save=2.99ms
+[2017.09.08-04.04.58:808][189]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreSaveCA0A3CFC4E31C0FFE50969A88A4F005D.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset'
+[2017.09.08-04.04.58:809][189]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset
+[2017.09.08-04.06.58:067][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreStruct" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreStruct.uasset" SILENT=true
+[2017.09.08-04.06.58:073][824]LogSavePackage: Save=2.22ms
+[2017.09.08-04.06.58:073][824]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreStruct38C9433A47ACD775FC22A9BAC058C414.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreStruct.uasset'
+[2017.09.08-04.06.58:075][824]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreStruct.uasset
+[2017.09.08-04.07.05:279][682]BlueprintLog: New page: Compile HighScoreSave
+[2017.09.08-04.07.05:903][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreSave" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset" SILENT=true
+[2017.09.08-04.07.05:913][743]LogSavePackage: Save=5.09ms
+[2017.09.08-04.07.05:913][743]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreSaveEAD2841C4DD98AE1C880599AE723835F.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset'
+[2017.09.08-04.07.05:915][743]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset
+[2017.09.08-04.07.15:575][334]LogClass:Warning: Type mismatch in SaveStruct of SKEL_HighScoreSave_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2017.09.08-04.11.18:214][412]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinBallMap' took 0.016
+[2017.09.08-04.11.18:215][412]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/HighScoreSave] ([1] browsable assets)...
+[2017.09.08-04.11.18:215][412]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/HighScoreSave]
+[2017.09.08-04.11.18:215][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreSave" FILE="../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/HighScoreSave_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2017.09.08-04.11.18:225][412]LogSavePackage: Save=6.70ms
+[2017.09.08-04.11.18:225][412]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreSave_Auto0347C23D64E325BD5C39F5C98D8F60538.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/HighScoreSave_Auto0.uasset'
+[2017.09.08-04.11.18:226][412]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/HighScoreSave_Auto0.uasset
+[2017.09.08-04.11.18:226][412]LogFileHelpers: Auto-saving content packages took 0.012
+[2017.09.08-04.17.34:051][ 75]BlueprintLog: New page: Compile HighScoreSave
+[2017.09.08-04.17.34:056][ 75]LogClass:Warning: Type mismatch in SaveStruct of HighScoreSave_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2017.09.08-04.23.44:468][213]LogSlate:Warning: Menu could not be pushed.  A path to the parent widget(SGraphPanel [SGraphEditorImpl.cpp(291)]) could not be found
+[2017.09.08-04.24.03:244][228]BlueprintLog: New page: Compile HighScoreSave
+[2017.09.08-04.24.03:993][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreSave" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset" SILENT=true
+[2017.09.08-04.24.04:008][304]LogSavePackage: Save=11.59ms
+[2017.09.08-04.24.04:008][304]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreSave006D753B4F320F039B1D35A24E081FC4.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset'
+[2017.09.08-04.24.04:010][304]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset
+[2017.09.08-04.26.04:384][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreStruct" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreStruct.uasset" SILENT=true
+[2017.09.08-04.26.04:391][478]LogSavePackage: Save=2.21ms
+[2017.09.08-04.26.04:391][478]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreStruct73BE8B024C614D8D901736A473605E1F.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreStruct.uasset'
+[2017.09.08-04.26.04:392][478]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreStruct.uasset
+[2017.09.08-04.26.24:771][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreSave" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset" SILENT=true
+[2017.09.08-04.26.24:784][919]LogSavePackage: Save=8.72ms
+[2017.09.08-04.26.24:784][919]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreSaveAFC655BF4987D34EF5CA1F8F4C99AEA2.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset'
+[2017.09.08-04.26.24:785][919]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset
+[2017.09.08-04.27.47:549][803]BlueprintLog: New page: Compile HighScoreSave
+[2017.09.08-04.27.48:145][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreSave" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset" SILENT=true
+[2017.09.08-04.27.48:155][861]LogSavePackage: Save=5.98ms
+[2017.09.08-04.27.48:155][861]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreSaveE00EF79D469B760F67E72998BBB75EAA.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset'
+[2017.09.08-04.27.48:156][861]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset
+[2017.09.08-04.28.07:187][134]BlueprintLog: New page: Compile HighScoreSave
+[2017.09.08-04.28.08:028][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreSave" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset" SILENT=true
+[2017.09.08-04.28.08:038][222]LogSavePackage: Save=5.63ms
+[2017.09.08-04.28.08:038][222]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreSave4E74519F427DB641DCF94D9E4E3DC57D.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset'
+[2017.09.08-04.28.08:039][222]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset
+[2017.09.08-04.29.16:816][  0]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinBallMap' took 0.016
+[2017.09.08-04.29.16:817][  0]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/HighScoreSave] ([1] browsable assets)...
+[2017.09.08-04.29.16:817][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/HighScoreSave]
+[2017.09.08-04.29.16:817][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreSave" FILE="../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/HighScoreSave_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.08-04.29.16:830][  0]LogSavePackage: Save=8.50ms
+[2017.09.08-04.29.16:830][  0]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreSave_Auto1870CAAEE494DA399342D95A6E6928DA7.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/HighScoreSave_Auto1.uasset'
+[2017.09.08-04.29.16:830][  0]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/HighScoreSave_Auto1.uasset
+[2017.09.08-04.29.16:830][  0]LogFileHelpers: Auto-saving content packages took 0.014
+[2017.09.08-04.30.35:435][362]BlueprintLog: New page: Compile HighScoreSave
+[2017.09.08-04.30.36:020][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreSave" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset" SILENT=true
+[2017.09.08-04.30.36:036][418]LogSavePackage: Save=12.36ms
+[2017.09.08-04.30.36:036][418]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreSave458FA7E64A0FB2DDCB7A5999C544B3C7.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset'
+[2017.09.08-04.30.36:038][418]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset
+[2017.09.08-04.31.19:345][421]LogSlate:Warning: Menu could not be pushed.  A path to the parent widget(SGraphPanel [SGraphEditorImpl.cpp(291)]) could not be found
+[2017.09.08-04.34.11:444][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap" FILE="../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.08-04.34.11:551][927]LogSavePackage: Save=83.49ms
+[2017.09.08-04.34.11:551][927]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMapA9BBA6134FF5B7D9EECE178F54B9B649.tmp' to '../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap'
+[2017.09.08-04.34.11:553][927]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/PinBallMap.umap
+[2017.09.08-04.34.11:573][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap_BuiltData" FILE="../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset" SILENT=true
+[2017.09.08-04.34.11:603][927]LogSavePackage: Save=25.30ms
+[2017.09.08-04.34.11:603][927]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap_BuiltDataE3A41E024BBD06C7A9A0C981BD121D55.tmp' to '../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset'
+[2017.09.08-04.34.11:603][927]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset
+[2017.09.08-04.34.35:099][713]LogWindows: Windows GetLastError: The operation completed successfully. (0)
