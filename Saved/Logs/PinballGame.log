@@ -436,3 +436,124 @@ LogInit: Object subsystem initialized
 [2017.09.08-18.08.58:616][701]LogSavePackage: Save=36.66ms
 [2017.09.08-18.08.58:616][701]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreEntry0BAE0EB5476C7DB5B1312CA8328DA69D.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset'
 [2017.09.08-18.08.58:617][701]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset
+[2017.09.08-18.10.20:295][483]LogEditorTransaction: Undo Add Node
+[2017.09.08-18.11.31:406][926]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.09.08-18.12.05:494][962]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.08-18.12.05:656][962]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'High Score Save', you don't need  Cast To HighScoreSave .
+[2017.09.08-18.12.06:010][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballGameMode" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset" SILENT=true
+[2017.09.08-18.12.06:083][999]LogSavePackage: Save=67.29ms
+[2017.09.08-18.12.06:083][999]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameMode714C50FA48165A83088C41A348ADBD04.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset'
+[2017.09.08-18.12.06:084][999]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset
+[2017.09.08-18.12.07:959][221]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-18.12.08:043][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-18.12.08:061][221]PIE: New page: PIE session: PinBallMap (Sep 8, 2017, 10:12:08 AM)
+[2017.09.08-18.12.08:061][221]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-18.12.08:102][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040136s)
+[2017.09.08-18.12.08:102][221]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-18.12.08:102][221]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2017.09.08-18.12.08:102][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.040910s)
+[2017.09.08-18.12.08:130][221]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-18.12.08:144][221]LogInit: FAudioDevice initialized.
+[2017.09.08-18.12.08:214][221]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-18.12.08:217][221]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.08-14.12.08
+[2017.09.08-18.12.08:234][221]LogWorld: Bringing up level for play took: 0.018310
+[2017.09.08-18.12.08:316][221]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.09.08-18.12.08:322][221]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap 0.723
+[2017.09.08-18.13.08:882][204]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.08-18.13.09:008][204]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'High Score Save', you don't need  Cast To HighScoreSave .
+[2017.09.08-18.13.09:472][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballGameMode" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset" SILENT=true
+[2017.09.08-18.13.09:544][257]LogSavePackage: Save=67.48ms
+[2017.09.08-18.13.09:544][257]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameMode6804E14C41E2F98B693678A1302C063A.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset'
+[2017.09.08-18.13.09:545][257]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset
+[2017.09.08-18.13.11:131][446]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-18.13.11:146][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-18.13.11:146][446]PIE: New page: PIE session: PinBallMap (Sep 8, 2017, 10:13:11 AM)
+[2017.09.08-18.13.11:146][446]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-18.13.11:152][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005234s)
+[2017.09.08-18.13.11:152][446]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-18.13.11:152][446]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2017.09.08-18.13.11:152][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.006043s)
+[2017.09.08-18.13.11:178][446]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-18.13.11:189][446]LogInit: FAudioDevice initialized.
+[2017.09.08-18.13.11:220][446]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-18.13.11:222][446]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.08-14.13.11
+[2017.09.08-18.13.11:223][446]LogWorld: Bringing up level for play took: 0.001532
+[2017.09.08-18.13.11:224][446]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap -0.375
+[2017.09.08-18.14.30:298][456]BlueprintLog: New page: Compile HighScoreEntry
+[2017.09.08-18.14.30:494][456]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.08-18.14.30:863][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreEntry" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset" SILENT=true
+[2017.09.08-18.14.30:904][476]LogSavePackage: Save=35.60ms
+[2017.09.08-18.14.30:904][476]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreEntry7D42834C4B2ACBCF5B13AF9EB0216267.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset'
+[2017.09.08-18.14.30:905][476]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset
+[2017.09.08-18.15.19:824][683]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.08-18.15.19:953][683]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'High Score Save', you don't need  Cast To HighScoreSave .
+[2017.09.08-18.15.20:371][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballGameMode" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset" SILENT=true
+[2017.09.08-18.15.20:446][730]LogSavePackage: Save=70.68ms
+[2017.09.08-18.15.20:446][730]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameMode7D57A1F94AF1454CEC0682AAFB812AC7.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset'
+[2017.09.08-18.15.20:448][730]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset
+[2017.09.08-18.15.22:433][967]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-18.15.22:450][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-18.15.22:450][967]PIE: New page: PIE session: PinBallMap (Sep 8, 2017, 10:15:22 AM)
+[2017.09.08-18.15.22:450][967]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-18.15.22:456][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005307s)
+[2017.09.08-18.15.22:456][967]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-18.15.22:456][967]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2017.09.08-18.15.22:457][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.006237s)
+[2017.09.08-18.15.22:485][967]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-18.15.22:497][967]LogInit: FAudioDevice initialized.
+[2017.09.08-18.15.22:526][967]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-18.15.22:528][967]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.08-14.15.22
+[2017.09.08-18.15.22:528][967]LogWorld: Bringing up level for play took: 0.001515
+[2017.09.08-18.15.22:530][967]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap 0.931
+[2017.09.08-18.17.29:140][836]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.08-18.17.29:267][836]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'High Score Save', you don't need  Cast To HighScoreSave .
+[2017.09.08-18.17.29:854][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballGameMode" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset" SILENT=true
+[2017.09.08-18.17.29:947][904]LogSavePackage: Save=83.81ms
+[2017.09.08-18.17.29:947][904]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameMode2685B4184A76AAE1B50CBD8BA380034E.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset'
+[2017.09.08-18.17.29:949][904]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset
+[2017.09.08-18.17.37:013][594]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-18.17.37:028][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-18.17.37:028][594]PIE: New page: PIE session: PinBallMap (Sep 8, 2017, 10:17:37 AM)
+[2017.09.08-18.17.37:029][594]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-18.17.37:034][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005239s)
+[2017.09.08-18.17.37:034][594]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-18.17.37:034][594]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2017.09.08-18.17.37:034][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.005949s)
+[2017.09.08-18.17.37:061][594]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-18.17.37:072][594]LogInit: FAudioDevice initialized.
+[2017.09.08-18.17.37:106][594]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-18.17.37:108][594]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.08-14.17.37
+[2017.09.08-18.17.37:108][594]LogWorld: Bringing up level for play took: 0.001487
+[2017.09.08-18.17.37:110][594]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap -0.49
+[2017.09.08-18.19.52:734][957]BlueprintLog: New page: Compile HighScoreEntry
+[2017.09.08-18.19.52:888][957]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.08-18.19.53:413][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreEntry" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset" SILENT=true
+[2017.09.08-18.19.53:454][987]LogSavePackage: Save=35.69ms
+[2017.09.08-18.19.53:454][987]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreEntry6FDF0708421B10ABC09033B998A2E1AD.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset'
+[2017.09.08-18.19.53:456][987]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset
+[2017.09.08-18.20.42:768][254]BlueprintLog: New page: Compile HighScoreEntry
+[2017.09.08-18.20.42:891][254]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.08-18.20.43:486][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreEntry" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset" SILENT=true
+[2017.09.08-18.20.43:528][310]LogSavePackage: Save=37.97ms
+[2017.09.08-18.20.43:528][310]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreEntryB7F85B754E04D6BA0ABDF1BB57A60458.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset'
+[2017.09.08-18.20.43:530][310]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset
+[2017.09.08-18.20.46:040][589]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.08-18.20.46:056][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.08-18.20.46:056][589]PIE: New page: PIE session: PinBallMap (Sep 8, 2017, 10:20:46 AM)
+[2017.09.08-18.20.46:057][589]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PinBallMap
+[2017.09.08-18.20.46:062][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005215s)
+[2017.09.08-18.20.46:062][589]LogAIModule: Creating AISystem for world PinBallMap
+[2017.09.08-18.20.46:062][589]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2017.09.08-18.20.46:062][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PinBallMap.PinBallMap to /Game/UEDPIE_0_PinBallMap.PinBallMap (0.005962s)
+[2017.09.08-18.20.46:090][589]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.08-18.20.46:100][589]LogInit: FAudioDevice initialized.
+[2017.09.08-18.20.46:131][589]LogLoad: Game class is 'PinballGameMode_C'
+[2017.09.08-18.20.46:133][589]LogWorld: Bringing World /Game/UEDPIE_0_PinBallMap.PinBallMap up for play (max tick rate 0) at 2017.09.08-14.20.46
+[2017.09.08-18.20.46:133][589]LogWorld: Bringing up level for play took: 0.001533
+[2017.09.08-18.20.46:135][589]PIE: Info Play in editor start time for /Game/UEDPIE_0_PinBallMap 0.536
+[2017.09.08-18.21.59:056][298]BlueprintLog: New page: Compile HighScoreEntry
+[2017.09.08-18.21.59:183][298]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.08-18.21.59:501][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreEntry" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset" SILENT=true
+[2017.09.08-18.21.59:547][327]LogSavePackage: Save=40.94ms
+[2017.09.08-18.21.59:547][327]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreEntry506FBC7646975DA81450008E130E9C6E.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset'
+[2017.09.08-18.21.59:548][327]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset
