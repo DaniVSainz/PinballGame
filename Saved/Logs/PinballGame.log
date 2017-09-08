@@ -815,3 +815,48 @@ LogInit: Object subsystem initialized
 [2017.09.08-03.21.24:146][406]LogSavePackage: Save=24.58ms
 [2017.09.08-03.21.24:146][406]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap_BuiltData1C672A3E4D811C84F5D2CC92AFFA799F.tmp' to '../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset'
 [2017.09.08-03.21.24:146][406]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/PinBallMap_BuiltData.uasset
+[2017.09.08-03.55.05:271][883]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2017.09.08-03.59.23:214][465]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.08-03.59.26:415][843]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.09.08-04.00.32:569][ 24]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.08-04.00.33:341][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballGameMode" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset" SILENT=true
+[2017.09.08-04.00.33:373][ 83]LogSavePackage: Save=27.66ms
+[2017.09.08-04.00.33:373][ 83]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameMode0C00033D44DCCF4AF885D2BA8667830E.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset'
+[2017.09.08-04.00.33:375][ 83]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset
+[2017.09.08-04.01.17:387][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PinBallMap" FILE="../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto9.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.08-04.01.17:476][488]LogSavePackage: Save=83.47ms
+[2017.09.08-04.01.17:476][488]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinBallMap_Auto9D8B75DEA4C3C7A7783D10CB6E9734E7D.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto9.umap'
+[2017.09.08-04.01.17:477][488]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/PinBallMap_Auto9.umap
+[2017.09.08-04.01.17:478][488]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinBallMap' took 0.111
+[2017.09.08-04.01.17:478][488]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.111
+[2017.09.08-04.01.17:480][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/PinballGameMode] ([1] browsable assets)...
+[2017.09.08-04.01.17:480][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PinballGameMode]
+[2017.09.08-04.01.17:480][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballGameMode" FILE="../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballGameMode_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.09.08-04.01.17:512][488]LogSavePackage: Save=29.23ms
+[2017.09.08-04.01.17:512][488]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameMode_Auto9506DB6034ABB043ED53A4FB429977F38.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballGameMode_Auto9.uasset'
+[2017.09.08-04.01.17:513][488]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/PinballGameMode_Auto9.uasset
+[2017.09.08-04.01.17:513][488]LogFileHelpers: Auto-saving content packages took 0.034
+[2017.09.08-04.02.26:657][394]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.08-04.02.27:428][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballGameMode" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset" SILENT=true
+[2017.09.08-04.02.27:463][468]LogSavePackage: Save=31.99ms
+[2017.09.08-04.02.27:463][468]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameMode2D34F14C404C539E4F73CFA0345294F4.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset'
+[2017.09.08-04.02.27:465][468]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset
+[2017.09.08-04.04.33:370][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreStruct" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreStruct.uasset" SILENT=true
+[2017.09.08-04.04.33:373][157]LogSavePackage: Save=2.00ms
+[2017.09.08-04.04.33:373][157]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreStruct699E953E4B822A1DA83E0BB376633E3A.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreStruct.uasset'
+[2017.09.08-04.04.33:375][157]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreStruct.uasset
+[2017.09.08-04.04.57:874][ 91]BlueprintLog: New page: Compile HighScoreSave
+[2017.09.08-04.04.58:804][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreSave" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset" SILENT=true
+[2017.09.08-04.04.58:808][189]LogSavePackage: Save=2.99ms
+[2017.09.08-04.04.58:808][189]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreSaveCA0A3CFC4E31C0FFE50969A88A4F005D.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset'
+[2017.09.08-04.04.58:809][189]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset
+[2017.09.08-04.06.58:067][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreStruct" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreStruct.uasset" SILENT=true
+[2017.09.08-04.06.58:073][824]LogSavePackage: Save=2.22ms
+[2017.09.08-04.06.58:073][824]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreStruct38C9433A47ACD775FC22A9BAC058C414.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreStruct.uasset'
+[2017.09.08-04.06.58:075][824]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreStruct.uasset
+[2017.09.08-04.07.05:279][682]BlueprintLog: New page: Compile HighScoreSave
+[2017.09.08-04.07.05:903][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreSave" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset" SILENT=true
+[2017.09.08-04.07.05:913][743]LogSavePackage: Save=5.09ms
+[2017.09.08-04.07.05:913][743]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreSaveEAD2841C4DD98AE1C880599AE723835F.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset'
+[2017.09.08-04.07.05:915][743]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset
+[2017.09.08-04.07.15:575][334]LogClass:Warning: Type mismatch in SaveStruct of SKEL_HighScoreSave_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
