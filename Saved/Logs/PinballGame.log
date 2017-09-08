@@ -352,3 +352,87 @@ LogInit: Object subsystem initialized
 [2017.09.08-17.50.15:879][755]LogSavePackage: Save=50.18ms
 [2017.09.08-17.50.15:879][755]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameMode9B678D5340258CC90B69E69B5F3C6511.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset'
 [2017.09.08-17.50.15:880][755]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset
+[2017.09.08-17.53.09:801][742]BlueprintLog: New page: Compile PinballGameMode
+[2017.09.08-17.53.09:922][742]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'High Score Save', you don't need  Cast To HighScoreSave .
+[2017.09.08-17.53.10:293][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/PinballGameMode" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset" SILENT=true
+[2017.09.08-17.53.10:358][784]LogSavePackage: Save=60.67ms
+[2017.09.08-17.53.10:358][784]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/PinballGameModeFC391FB74EE97C52A06FF89F2DF94D2D.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset'
+[2017.09.08-17.53.10:360][784]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/PinballGameMode.uasset
+[2017.09.08-17.54.11:110][842]LogEditorTransaction: Undo Add Node
+[2017.09.08-17.55.24:304][384]BlueprintLog: New page: Compile HighScoreSave
+[2017.09.08-17.55.24:872][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreSave" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset" SILENT=true
+[2017.09.08-17.55.24:944][433]LogSavePackage: Save=66.94ms
+[2017.09.08-17.55.24:944][433]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreSave80F893E3466B7C0E3CA45085B3B58D77.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset'
+[2017.09.08-17.55.24:945][433]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset
+[2017.09.08-17.55.46:495][ 13]BlueprintLog: New page: Compile HighScoreSave
+[2017.09.08-17.55.47:076][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreSave" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset" SILENT=true
+[2017.09.08-17.55.47:147][ 64]LogSavePackage: Save=67.02ms
+[2017.09.08-17.55.47:147][ 64]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreSave811063D749B2F8967B65D89CCAE39496.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset'
+[2017.09.08-17.55.47:149][ 64]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreSave.uasset
+[2017.09.08-17.56.24:365][509]LogLinker: Can't find file '/Game/BluePrints/HighScoreEntry'
+[2017.09.08-17.56.24:365][509]LogLinker: Can't find file '/Game/BluePrints/HighScoreEntry'
+[2017.09.08-17.59.03:416][685]BlueprintLog: New page: Compile HighScoreEntry
+[2017.09.08-17.59.03:538][685]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.08-17.59.04:213][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreEntry" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset" SILENT=true
+[2017.09.08-17.59.04:224][723]LogSavePackage: Save=8.92ms
+[2017.09.08-17.59.04:224][723]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreEntry128A1526434F1B3E6871D78B5E631411.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset'
+[2017.09.08-17.59.04:225][723]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset
+[2017.09.08-17.59.33:704][823]BlueprintLog: New page: Compile HighScoreEntry
+[2017.09.08-17.59.33:868][823]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.08-17.59.34:821][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreEntry" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset" SILENT=true
+[2017.09.08-17.59.34:847][878]LogSavePackage: Save=20.52ms
+[2017.09.08-17.59.34:847][878]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreEntry66733F5D4C1BEF70E72FF88E06CB83DA.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset'
+[2017.09.08-17.59.34:848][878]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset
+[2017.09.08-18.00.28:090][564]BlueprintLog: New page: Compile HighScoreEntry
+[2017.09.08-18.00.28:191][564]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.08-18.00.28:812][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreEntry" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset" SILENT=true
+[2017.09.08-18.00.28:827][620]LogSavePackage: Save=11.34ms
+[2017.09.08-18.00.28:827][620]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreEntry70514E254E640EAAB78CA9B8CB02D210.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset'
+[2017.09.08-18.00.28:829][620]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset
+[2017.09.08-18.02.46:679][658]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PinBallMap' took 0.019
+[2017.09.08-18.02.46:680][658]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/HighScoreEntry] ([1] browsable assets)...
+[2017.09.08-18.02.46:680][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/HighScoreEntry]
+[2017.09.08-18.02.46:680][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreEntry" FILE="../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/HighScoreEntry_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.08-18.02.46:703][658]LogSavePackage: Save=18.13ms
+[2017.09.08-18.02.46:703][658]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreEntry_Auto14AEA49334DE6C21DD4A298A01FC340B5.tmp' to '../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/HighScoreEntry_Auto1.uasset'
+[2017.09.08-18.02.46:704][658]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Saved/Autosaves/Game/BluePrints/HighScoreEntry_Auto1.uasset
+[2017.09.08-18.02.46:704][658]LogFileHelpers: Auto-saving content packages took 0.023
+[2017.09.08-18.03.16:574][637]BlueprintLog: New page: Compile HighScoreEntry
+[2017.09.08-18.03.16:678][637]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.08-18.03.17:116][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreEntry" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset" SILENT=true
+[2017.09.08-18.03.17:141][676]LogSavePackage: Save=19.96ms
+[2017.09.08-18.03.17:141][676]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreEntry786A227649F981D536EA498C28F6FBFC.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset'
+[2017.09.08-18.03.17:142][676]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset
+[2017.09.08-18.03.29:065][820]BlueprintLog: New page: Compile HighScoreEntry
+[2017.09.08-18.03.29:177][820]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.08-18.03.29:736][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreEntry" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset" SILENT=true
+[2017.09.08-18.03.29:761][871]LogSavePackage: Save=20.79ms
+[2017.09.08-18.03.29:762][871]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreEntryB1399714478EF679167F5FBB6E9ED133.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset'
+[2017.09.08-18.03.29:763][871]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset
+[2017.09.08-18.05.33:501][141]BlueprintLog: New page: Compile HighScoreEntry
+[2017.09.08-18.05.33:611][141]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.08-18.05.34:181][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreEntry" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset" SILENT=true
+[2017.09.08-18.05.34:216][193]LogSavePackage: Save=29.63ms
+[2017.09.08-18.05.34:216][193]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreEntryBE11E6E24A11A3DE5E3F088BF4DECFA7.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset'
+[2017.09.08-18.05.34:217][193]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset
+[2017.09.08-18.08.10:131][989]BlueprintLog: New page: Compile HighScoreEntry
+[2017.09.08-18.08.10:148][989]LogBlueprint:Error: [Compiler HighScoreEntry] Error This blueprint (self) is not a PinballGameMode_C, therefore ' Target ' must have a connection.
+[2017.09.08-18.08.10:148][989]LogBlueprint:Error: [Compiler HighScoreEntry] Error This blueprint (self) is not a PinballGameMode_C, therefore ' Target ' must have a connection.
+[2017.09.08-18.08.10:148][989]LogBlueprint:Error: [Compiler HighScoreEntry] Error Variable node  Get Score  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.08-18.08.10:148][989]LogBlueprint:Error: [Compiler HighScoreEntry] Error Variable node  Get CurrentSaveObject  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.08-18.08.10:324][989]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PinballGameMode_C, therefore ' Target ' must have a connection.
+[2017.09.08-18.08.10:324][989]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PinballGameMode_C, therefore ' Target ' must have a connection.
+[2017.09.08-18.08.10:324][989]BlueprintEditorCompileResults:Error: Error Variable node  Get Score  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.08-18.08.10:324][989]BlueprintEditorCompileResults:Error: Error Variable node  Get CurrentSaveObject  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.09.08-18.08.10:324][989]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.08-18.08.10:324][989]LogBlueprint:Warning: [Compiler HighScoreEntry] Warning [4295.34] Compile of HighScoreEntry failed. 4 Fatal Issue(s) 0 Warning(s) [in 192 ms] (/Game/BluePrints/HighScoreEntry.HighScoreEntry)
+[2017.09.08-18.08.10:699][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreEntry" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset" SILENT=true
+[2017.09.08-18.08.10:736][ 23]LogSavePackage: Save=32.55ms
+[2017.09.08-18.08.10:736][ 23]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreEntryB5DA475940AB0A906CD3F48C962CDABE.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset'
+[2017.09.08-18.08.10:737][ 23]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset
+[2017.09.08-18.08.57:233][582]BlueprintLog: New page: Compile HighScoreEntry
+[2017.09.08-18.08.57:346][582]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.09.08-18.08.58:574][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/HighScoreEntry" FILE="../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset" SILENT=true
+[2017.09.08-18.08.58:616][701]LogSavePackage: Save=36.66ms
+[2017.09.08-18.08.58:616][701]LogSavePackage: Moving '../../../../../UnrealProjects/PinballGame/Saved/HighScoreEntry0BAE0EB5476C7DB5B1312CA8328DA69D.tmp' to '../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset'
+[2017.09.08-18.08.58:617][701]LogSavePackage:Display: Finished SavePackage ../../../../../UnrealProjects/PinballGame/Content/BluePrints/HighScoreEntry.uasset
